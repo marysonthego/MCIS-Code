@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="MClarkAS7.Charter">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQgAAAIAAAAAAAAABAAQEAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Charter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MClarkAS7.FormCharterManager">
+    <Position X="4" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>EQKAAAkABSIAAAIBUgiAAAgCQAgAAESQAAGAAIgAAAI=</HashCode>
+      <FileName>FormCharterManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MClarkAS7.FormAllCharters">
+    <Position X="0.5" Y="4" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAASABCAIgAACEAABCAAAAAAAAAAAAAgAAiAA=</HashCode>
+      <FileName>FormAllCharters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MClarkAS7.CharterManager">
+    <Position X="7.75" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAEAAAAAAAABAFAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CharterManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

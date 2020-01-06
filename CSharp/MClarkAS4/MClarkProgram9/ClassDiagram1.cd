@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MClarkProgram9.CateringEvent">
+    <Position X="1" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>RAABAACAAGAAAogAAAKIBIIAAIAAAAAAAUAAIEECAAA=</HashCode>
+      <FileName>CateringEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MClarkProgram9.CateringEventForm">
+    <Position X="3.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AGACgEQA0GAAKCgYgAGgAAATACAgIAAAgBAJRwAAoQA=</HashCode>
+      <FileName>CateringEventForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MClarkProgram9.Program">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="MClarkProgram9.EntreType">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAIAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CateringEvent.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

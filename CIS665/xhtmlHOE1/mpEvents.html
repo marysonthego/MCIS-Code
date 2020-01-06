@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--CIS665 HOE1
+    First HTML5 Exercise
+    File: mpEvents.html
+    Site Link: http://cisweb.biz.colostate.edu/cis665/sp19clark.mclark59/htmlHOE1/mpIndex.html
+    Author: Mary Clark
+    Date: 01/26/2019-->
+    <!--Make the following changes to mpEvents.html:
+    a. Use the meta element to set the character encoding of the file to utf-8.
+    b. Set the title of the document to Mobile Panini Calendar.
+    c. Link the document to the mpLayout.css style sheet file
+    d. Copy and paste the header and footer elements from mpIndex.html.
+    e. Within the article element, do the following:
+    i. Mark the “Where are we this week?” line as an h1 heading.
+    ii. Enclose each day’s worth of events within a separate div (or division) element.
+    iii. Within each of the seven day divisions, enclose the day and date as an h1 heading.
+    Enclose the location and time within a paragraph element. Insert a line break element,
+    <br />, directly before the time of the event.-->
+
+    <meta charset=”utf-8” />
+
+    <title>Mobile Panini Calendar</title>
+
+    <link href="mpLayout.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <!--In the document body, within the header element, add the following:
+        An inline image containing the mpLogo.png file with the alternate text set to Mobile
+        Panini. Enclose the image within a hypertext link element, and set the link to
+        mpIndex.html file.-->
+        <a href="mpIndex.html"><img src="mpLogo.png" alt=”Mobile Panini” /></a>
+
+        <!--In the document body, within the header element, add the following:
+            A navigation list (i.e., nest the list within a nav element) containing an unordered list with
+            the following list items: Home, Menu, Events, and Catering. Link the items to
+            mpIndex.html, mpMenu.html, mpEvents.html, and mpCatering.html files respectively.-->
+        <nav>
+            <ul>
+                <li><a href="mpIndex.html">Home</a></li>
+                <li><a href="mpMenu.html">Menu</a></li>
+                <li><a href="mpEvents.html">Events</a></li>
+                <li><a href="mpCatering.html">Catering</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <h1>Where Are We This Week?</h1>
+
+        <div>
+            <h1>Monday 9/14</h1>
+            <p>247 Park Rd., Charlotte
+                <br />(11 a.m. - 6 p.m.)</p>
+        </div>
+
+        <div>
+            <h1>Tuesday 9/15</h1>
+            <p>North Dr., Cornelius
+                <br />(11 a.m. - 9 p.m.)</p>
+        </div>
+
+        <div>
+            <h1>Wednesday 9/16</h1>
+            <p>216 Hawkins St., Charlotte
+                <br />(11 a.m. - 9 p.m.)</p>
+</div>
+
+        <div>
+            <h1>Thursday 9/17</h1>
+            <p>14 Plaza Rd., Charlotte
+                <br />(11 a.m. - 6 p.m.)</p>
+</div>
+
+        <div>
+            <h1>Friday 9/18</h1>
+            <p>141 Camden St., Charlotte
+                <br />(11 a.m. - 10 p.m.)</p>
+</div>
+
+        <div>
+            <h1>Saturday 9/19</h1>
+            <p>801 York Rd., Charlotte
+                <br />(10 a.m. - 9 p.m.)</p>
+</div>
+
+        <div>
+            <h1>Sunday 9/20</h1>
+            <p>159  States Ave., Huntersville
+                <br />(10 a.m. - 6 p.m.)</p>
+</div>
+
+</article>
+    <footer>
+        <!--In the footer element text, insert the special characters (character code 9832) as shown in
+            mpIndexDone.png. Add an extra space between NC and 28204 using the nbsp character name.-->
+        Mobile Panini &#9832; 31 West Avenue, Charlotte NC &nbsp; 28204 &#9832; 704-555-2188
+    </footer>
+</body>
+</html>

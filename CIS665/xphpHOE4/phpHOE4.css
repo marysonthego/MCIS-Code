@@ -1,0 +1,130 @@
+/*
+   Actor Search Style Sheet
+   
+   Filename: phpHOE4.css
+
+   CIS665 phpHOE4
+
+   Link: http://cisweb.biz.colostate.edu/cis665/sp19clark.mclark59/phpHOE4/index.php
+
+   Author: Mary Clark
+
+   Date: 03/06/2019
+     
+  
+*/
+
+form actorSearch
+{
+   background: rgba(153,0,51,0.5);
+   border: 1px solid firebrick;
+   float: left;
+   margin: 1%;
+   width: 45%;
+   color: white;
+}
+
+/* Styles for different field set */
+
+nav ul li
+{
+    background: rgba(153,0,51,0.5);
+   width: 100%;
+   color: white;
+}
+
+#actorGender, #actorAge
+{
+   background-color: rgba(153,0,51,0.5);;
+   width: 90%;
+   margin:5px 2%;
+   color: white;
+}
+
+/* Legend styles */
+
+legend 
+{
+   background-color: firebrick;
+   color: white;
+   font-size: 0.9em;
+   font-weight:bold;
+}
+
+/* Default Label styles */
+
+label 
+{
+   clear: left;
+   display: block;
+   font-size: 0.9em;
+   float: left;
+   padding-left: 5px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   width: 45%;
+   color: white;
+}
+
+results label
+{
+  width: 45%;
+}
+
+/* Default Input Box styles */
+
+input 
+{
+   display: block;
+   float: left;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   width: 50%;
+   color: black;
+}
+
+/* Address field styles */
+
+textarea 
+{
+   display: block;
+   float: left;
+   height: 110px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   width: 50%;
+   color: white;
+}
+
+/* Radio button styles */
+
+input[type="radio"] 
+{
+   width: 30px;
+   color: white;
+}
+
+/* Checkbox styles */
+
+input[type="checkbox"] 
+{
+   width: 30px;
+   color: white;
+}
+
+/* Input button styles */
+
+input[type="submit"] 
+{
+   display: list-item;
+   font-size: 1.2em;
+   clear: left;
+   margin-left: 5%;
+   width: 175px;
+   background-color: firebrick;
+   color: white;
+   font-weight:bold;
+}
+
+
+

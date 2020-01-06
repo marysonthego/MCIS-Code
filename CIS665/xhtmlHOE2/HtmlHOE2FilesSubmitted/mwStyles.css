@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+/* 3a. At the top of the file, insert the @charset rule to set the encoding for this style sheet to utf-8. 
+
+    See: https://www.w3.org/International/questions/qa-css-charset
+    It is not enough to simply put @charset "utf-8"; at the top of the style sheet – you need to also 
+    save your style sheet in the UTF-8 character encoding. 
+    
+    Through trial and error, found some settings that work.
+    Unfortunately, you cannot save these settings as the default.
+
+    In Visual Studio, File -> "Save filename as..." -> "Save as Type" CSS Files, 
+    then click the down-arrow on the SAVE button.
+    Select "Save with Encoding..."
+    Yes, you want to overwrite the existing file.
+    In the "Advanced Save" dialog box, 
+    Encoding: Select "Unicode (UTF-8 without signature) - Codepage 65001"
+    Line Endings: Select "Windows (CR LF)"
+   
+    UTF-8 without signature removes the BOM at the beginning of the file. 
+    When the BOM was at the beginning of the file, I got an error saying
+    that "@charset "utf-8";" could not appear here (apparently because it was
+    preceeded by the BOM).
+
+    w3.org also says this:
+    The CSS3 Syntax specification says that if you have a UTF-8 byte-order mark 
+    at the start of your file, this should cause the browser to read the style 
+    sheet as UTF-8, regardless of any other declaration. Unfortunately, at the 
+    time of writing this is not supported interoperably – Internet Explorer 
+    10 and 11 still give higher precedence to the HTTP header and @charset declarations.
+
+    So for the time being you should rely on the @charset or HTTP header declarations 
+    instead. The former has the additional advantage that it helps people looking at 
+    the source code to ascertain what is the encoding of the style sheet. 
+    The byte-order mark is invisible.
+
+*/
+
+/* 
+    1. Insert appropriate comments including your name and date in mwTour.html and mwStyles.css.
+    CIS665 HOE2
+    HTML5 Hands-On Exercise 2
+    File: mwStyles.css
+    Link: http://cisweb.biz.colostate.edu/cis665/sp19clark.mclark59/htmlHOE2/mwTour.html
+    Author: Mary Clark
+    Date: 02/05/2019
+*/
+
+/* Structural Styles */
+/* 3b. In the Structural Styles section,
+   i. Create a style rule that sets the background color of the browser window to rgb(173, 189, 227) */
+html { background-color: rgb(173, 189, 227) }
+
+/* ii. Create a style rule for the body element that sets the background color to rgb(227, 210, 173) 
+       and sets the body font to the font stack: ‘Century Gothic’, sans-serif, */
+body { background-color: rgb(227, 210, 173); 
+       font-family: 'Century Gothic', sans-serif; }
+
+/* Footer Styles */
+/* iii. Create a style rule to display the footer element with a background color of rgb(208, 184, 109) 
+        and set the top and bottom padding space to 5 pixels, */
+body footer { background-color: rgb(208, 184, 109); 
+              padding-top: 5px; 
+              padding-bottom: 5px;
+}
+
+/* iv. Create a style rule for the address element (nested within the footer element) to display
+       the text in a normal font with a font size of 0.9em, horizontally center the text, and set the
+       top and bottom padding to 10 pixels. */
+
+body footer address {
+    background-color: rgb(222,128,60);
+    color: black;
+    color: rgba(0, 0, 0, 0.7);
+    font: normal 0.9em 'Century Gothic', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Heading Styles */
+/* 3c. In the Heading Styles section, create a style rule to set the font weight of all h1 and h2 headings
+       to normal.*/
+h1, h2 {
+    font-weight: normal;
+}
+
+/* Navigation Styles */
+
+/*  3d.i. Create a style rule for the nav > ul selector that removes all list markers, sets the line
+        height to 2em, and sets the font size to 0.9em,*/
+nav > ul {
+    list-style-type: none;
+    line-height: 2em;
+    font-size: 0.9em;
+}
+
+/*  3d.ii. For every previously visited or unvisited hypertext link within the navigation list, create a
+        style rule to remove the underlining from the hypertext link and set the text color to
+        rgb(43, 59, 125), */
+    nav > ul > li a:visited, nav > ul > li a:link {
+        text-decoration: none;
+        color: rgb(43, 59, 125);
+    }
+
+/*  3d.iii. For every hovered or active link within the navigation list, create a style rule to set the
+        text color to rgb(212, 35, 35).*/
+    nav > ul > li a:hover, nav > ul > li a:active {
+        color: rgb(212, 35, 35);
+    }
+
+/* Article Styles */
+/* 3e. In the Article Styles section, for the article element with an ID of “tourSummary”,
+   3e.i. Create a style rule for h1 elements that sets the font size to 2.2em and the letter spacing to 0.2em, */
+        article#tourSummary h1 {
+        font-size: 2.2em;
+        letter-spacing: 0.2em;
+    }
+/* 3e.ii. Create a style rule for paragraphs that sets the font size to 1.1em, */
+    article#tourSummary p {
+    font-size: 1.1em;
+}
+/* 3e.iii. Use the first-of-type pseudo-class and the first-line pseudo-element to create a style rule
+      that displays the first line of the first paragraph at a font size of 1.2em and in small caps. */
+    article#tourSummary p:first-of-type:first-line {
+    font-variant:small-caps;
+    font-size: 1.2em;
+}
+
+/* Aside Styles */
+/* 3f. In the Aside Styles section, for the aside element with an ID of “tourItinerary”, */
+
+/* i. Create a style rule that sets the font size of h1 elements to 1.2em, */
+    aside h1 {
+        font-size: 1.2em;
+    }
+
+/* ii. Create a style rule that sets the font size of h2 elements to 0.9em, */
+    aside h2 {
+        font-size: 0.9em;
+    }
+
+
+/* iii. Create a style rule that sets the font size of paragraph element to 0.8em, */
+    aside p {
+        font-size: 0.8em;
+    }
+
+/* iv. Create a style rule for odd-numbered h2 headings and paragraphs that sets the font color
+to rgb(79,91,40) (Hint: Use the nth-of-type(odd) pseudo-class), */
+    aside h2:nth-of-type(odd)  {
+    color: rgb(79,91,40);
+}
+    aside p:nth-of-type(odd) {
+      color: rgb(79,91,40);
+    }
+
+/* v. Create a style rule for even-numbered h2 headings and paragraphs that sets the font color
+  to rgb(81,95,175) (Hint: Use the nth-of-type(even) pseudo-class).*/
+    aside h2:nth-of-type(even) {
+    color: rgb(81,95,175);
+}
+    aside p:nth-of-type(even) {
+    color: rgb(81,95,175);
+}
+
+/* Blockquote Styles */
+/* 3g. In the Blockquote Styles section,
+i. Create a style rule for the blockquote element that sets the background color to
+rgb(173,189,227) and the text color to rgb(255,255,255) with an opacity of 0.65. */
+blockquote {
+    background-color: rgb(173,189,227);
+    background-color: rgba(173,189,227,0.65);
+    color: rgb(255,255,255);
+    color: rgba(255,255,255,0.65);
+}
+/* ii. For paragraphs within the blockquote element create a style rule that sets the top and
+bottom padding space to 2.5 pixels and the left and right padding space to 10 pixels.*/
+    blockquote p {
+        padding: 2.5px 10px; }

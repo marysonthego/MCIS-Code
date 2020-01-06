@@ -1,0 +1,10 @@
+U:\CIS605\SamplePrograms\Module4\obj\Debug\Module4.csprojAssemblyReference.cache
+U:\CIS605\SamplePrograms\Module4\obj\Debug\Module4.Properties.Resources.resources
+U:\CIS605\SamplePrograms\Module4\obj\Debug\Module4.csproj.GenerateResource.cache
+U:\CIS605\SamplePrograms\Module4\obj\Debug\Module4.csproj.CoreCompileInputs.cache
+U:\CIS605\SamplePrograms\Module4\bin\Debug\Module4.exe.config
+U:\CIS605\SamplePrograms\Module4\bin\Debug\Module4.exe
+U:\CIS605\SamplePrograms\Module4\bin\Debug\Module4.pdb
+U:\CIS605\SamplePrograms\Module4\obj\Debug\Module4.Module4Ex1.resources
+U:\CIS605\SamplePrograms\Module4\obj\Debug\Module4.exe
+U:\CIS605\SamplePrograms\Module4\obj\Debug\Module4.pdb

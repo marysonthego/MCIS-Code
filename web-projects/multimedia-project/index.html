@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Images in HTML</title>
+  </head>
+  <body>
+    <h1>Images in HTML</h1>
+    <p>A figure could be 
+        several images, a code snippet, 
+        audio, video, equations, a table, or something else.</p>
+    <p>if an image has meaning, in terms of your content, 
+      you should use an HTML image. If an image is 
+      purely decoration, you should use CSS background images.</p>    
+    <figure>
+        <img src="images/kitty01.jpg"
+            alt="Alternative Text: Kitty coding book"
+            width="458"
+            height="595"
+            title="Title: kitty Coder">
+        <figcaption>caption: Kitty Coder Book</figcaption>
+    </figure>
+
+    <h2>Responsive img</h2>
+    <p>See <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images">Responsive Images</a></p>
+    <p>How wide is the browser window?  "document.querySelector('html').clientWidth;"</p>
+    <img srcset="images/kittybook-200w.jpg 200w,
+                images/kittybook-450w.jpg 450w"
+          sizes="max-width: 600px) 200px, 450px"
+          src="images/kittybook-450w.jpg" alt="Kitty coding book">
+
+    <h2>HTML video element</h2>
+    <ul>
+      <li>controls attribute includes the browser controls.</li>
+      <li>p inside the video element is the fallback content.</li>
+    </ul>
+    <p>See <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Video_and_audio_content">Video and Audio Content</a></p>
+    <video controls width="400" height="400"
+        autoplay loop muted>
+      <source src="images/rabbit320.mp4" type="video/mp4">
+      <source src="images/rabbit320.webm" type="video/webm"> 
+      <p>Your browser doesn't support HTML5 video.</p>
+    </video>
+
+    <h2>HTML audio element</h2>
+    <audio controls id="my-media-element">
+      <source src="images/viper.mp3" type="audio/mp3">
+      <source src="images/viper.ogg" type="audio/ogg">
+      <p>Your browser doesn't support HTML5 audio.</p>
+    </audio>
+
+    <h2>A GIF in an iframe</h2>
+    
+      <iframe src="https://giphy.com/embed/40Fpxgn6Yq640" 
+        width="70%" height="70%" 
+        frameBorder="0" class="giphy-embed">
+        <p>
+          <a href="https://giphy.com/gifs/cat-cute-kittens-40Fpxgn6Yq640">
+            Fallback link for browsers that don't support iframes.</a>
+        </p>
+      </iframe>
+   
+    <h2>svg</h2>
+    <svg width="100%" height="100%">
+      <rect width="100%" height="100%" fill="red" />
+      <circle cx="100%" cy="100%" r="150" fill="blue" stroke="black" />
+      <polygon points="120,0 240,225 0,225" fill="green"/>
+      <text x="50" y="100" font-family="Verdana" font-size="55"
+            fill="white" stroke="black" stroke-width="2">
+              Hello!
+      </text>
+    </svg>
+  
+  </body>
+</html>

@@ -1,0 +1,10 @@
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program5\obj\Debug\Program5.csprojAssemblyReference.cache
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program5\obj\Debug\Program5.PaintJobForm.resources
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program5\obj\Debug\Program5.Properties.Resources.resources
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program5\obj\Debug\Program5.csproj.GenerateResource.cache
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program5\obj\Debug\Program5.csproj.CoreCompileInputs.cache
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program5\bin\Debug\Program5.exe.config
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program5\bin\Debug\Program5.exe
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program5\bin\Debug\Program5.pdb
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program5\obj\Debug\Program5.exe
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program5\obj\Debug\Program5.pdb

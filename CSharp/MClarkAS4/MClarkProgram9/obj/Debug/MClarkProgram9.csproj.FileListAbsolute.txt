@@ -1,0 +1,10 @@
+C:\Users\marys\source\repos\MClarkAS4\MClarkProgram9\bin\Debug\MClarkProgram9.exe.config
+C:\Users\marys\source\repos\MClarkAS4\MClarkProgram9\bin\Debug\MClarkProgram9.exe
+C:\Users\marys\source\repos\MClarkAS4\MClarkProgram9\bin\Debug\MClarkProgram9.pdb
+C:\Users\marys\source\repos\MClarkAS4\MClarkProgram9\obj\Debug\MClarkProgram9.CateringEventForm.resources
+C:\Users\marys\source\repos\MClarkAS4\MClarkProgram9\obj\Debug\MClarkProgram9.Properties.Resources.resources
+C:\Users\marys\source\repos\MClarkAS4\MClarkProgram9\obj\Debug\MClarkProgram9.csproj.GenerateResource.cache
+C:\Users\marys\source\repos\MClarkAS4\MClarkProgram9\obj\Debug\MClarkProgram9.csproj.CoreCompileInputs.cache
+C:\Users\marys\source\repos\MClarkAS4\MClarkProgram9\obj\Debug\MClarkProgram9.exe
+C:\Users\marys\source\repos\MClarkAS4\MClarkProgram9\obj\Debug\MClarkProgram9.pdb
+C:\Users\marys\source\repos\MClarkAS4\MClarkProgram9\obj\Debug\MClarkProgram9.csprojAssemblyReference.cache

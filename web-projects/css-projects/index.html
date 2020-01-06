@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CSS Tests</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    
+<h1>CSS Tests</h1>
+
+<p> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">CSS Reference</a></p>
+    <br><br> Target multiple selectors at once by separating the selectors with a comma.
+    <br><br>To select a subset of the elements without changing the others,
+            add a class to your HTML element and target that class.
+    <br><br>target any li element that has a class of special:
+    <br><br>li.special {<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;color: orange;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;font-weight: bold;
+      <br>}<br><br>
+      To select only an &lt;em&gt; that is nested inside an &lt;li&gt; element use a 
+      selector called the descendant combinator, which simply takes the form of a 
+      space between two other selectors:<br><br>
+      li em {<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;color: rebeccapurple;<br>
+      }
+    <br><br>To style a paragraph when it comes directly after a heading at 
+        the same hierarchy level in the HTML place a +  (an adjacent sibling combinator) 
+        between the selectors.<br><br>
+        h1 + p {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;font-size: 200%<br>
+        }<br><br>
+
+    <p>This is a paragraph of text. In the text is a <span class="special">span element</span> 
+and also a <a href="http://example.com">link</a>.</p>
+
+    <p>This is the second paragraph. It contains an <em>emphasized</em> element.</p>
+
+    <ul>
+        <li>Item one</li>
+        <li class="special">Item two</li>
+        <li>Item <em>three</em></li>
+    </ul>
+<p>An internal stylesheet is where you don't have an external CSS file, 
+    but instead place your CSS inside a &lt;style&gt; element contained inside the HTML &lt;head&gt;.
+</p>
+<p>A property paired with a value is called a CSS declaration. CSS declarations are put within CSS 
+    Declaration Blocks. CSS declaration blocks are paired with selectors to produce CSS Rulesets (or CSS Rules).
+</p>
+<p> Both properties and values are case-sensitive in CSS. The property and value in each pair 
+    is separated by a colon (:).</p>
+
+</body>
+
+</html>

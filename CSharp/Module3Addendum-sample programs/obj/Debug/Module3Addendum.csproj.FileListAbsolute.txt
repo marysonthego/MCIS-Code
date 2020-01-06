@@ -1,0 +1,11 @@
+U:\CIS605\SamplePrograms\Module3Addendum\bin\Debug\Module3Addendum.exe.config
+U:\CIS605\SamplePrograms\Module3Addendum\bin\Debug\Module3Addendum.exe
+U:\CIS605\SamplePrograms\Module3Addendum\bin\Debug\Module3Addendum.pdb
+U:\CIS605\SamplePrograms\Module3Addendum\obj\Debug\Module3Addendum.csprojAssemblyReference.cache
+U:\CIS605\SamplePrograms\Module3Addendum\obj\Debug\Module3Addendum.Module3Ex4.resources
+U:\CIS605\SamplePrograms\Module3Addendum\obj\Debug\Module3Addendum.Properties.Resources.resources
+U:\CIS605\SamplePrograms\Module3Addendum\obj\Debug\Module3Addendum.csproj.GenerateResource.cache
+U:\CIS605\SamplePrograms\Module3Addendum\obj\Debug\Module3Addendum.csproj.CoreCompileInputs.cache
+U:\CIS605\SamplePrograms\Module3Addendum\obj\Debug\Module3Addendum.exe
+U:\CIS605\SamplePrograms\Module3Addendum\obj\Debug\Module3Addendum.pdb
+U:\CIS605\SamplePrograms\Module3Addendum\obj\Debug\Module3Addendum.Module3Ex5.resources

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MClarkProgram10.Program">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MClarkProgram10.PropertyTax">
+    <Position X="5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAIAAAgEoAAgAgEAAABAAAJAAgAgAACAA=</HashCode>
+      <FileName>PropertyTax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MClarkProgram10.PropertyTaxForm">
+    <Position X="7.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAQCAAAAiSAAABIAACCAIAACAKAEAAQAEAABAAAYQAA=</HashCode>
+      <FileName>PropertyTaxForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="MClarkProgram10.LocationType">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>PropertyTax.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

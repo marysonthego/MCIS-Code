@@ -1,0 +1,10 @@
+C:\Users\marys\source\repos\MClarkAS7\MClarkAS7\bin\Debug\MClarkAS7.exe.config
+C:\Users\marys\source\repos\MClarkAS7\MClarkAS7\bin\Debug\MClarkAS7.exe
+C:\Users\marys\source\repos\MClarkAS7\MClarkAS7\bin\Debug\MClarkAS7.pdb
+C:\Users\marys\source\repos\MClarkAS7\MClarkAS7\obj\Debug\MClarkAS7.FormAllCharters.resources
+C:\Users\marys\source\repos\MClarkAS7\MClarkAS7\obj\Debug\MClarkAS7.FormCharterManager.resources
+C:\Users\marys\source\repos\MClarkAS7\MClarkAS7\obj\Debug\MClarkAS7.Properties.Resources.resources
+C:\Users\marys\source\repos\MClarkAS7\MClarkAS7\obj\Debug\MClarkAS7.csproj.GenerateResource.cache
+C:\Users\marys\source\repos\MClarkAS7\MClarkAS7\obj\Debug\MClarkAS7.csproj.CoreCompileInputs.cache
+C:\Users\marys\source\repos\MClarkAS7\MClarkAS7\obj\Debug\MClarkAS7.exe
+C:\Users\marys\source\repos\MClarkAS7\MClarkAS7\obj\Debug\MClarkAS7.pdb

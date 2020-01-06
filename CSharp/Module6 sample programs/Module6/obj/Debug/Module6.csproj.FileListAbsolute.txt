@@ -1,0 +1,13 @@
+U:\CIS605\SamplePrograms\Module6\bin\Debug\Module6.exe.config
+U:\CIS605\SamplePrograms\Module6\bin\Debug\Module6.exe
+U:\CIS605\SamplePrograms\Module6\bin\Debug\Module6.pdb
+U:\CIS605\SamplePrograms\Module6\obj\Debug\Module6.csprojAssemblyReference.cache
+U:\CIS605\SamplePrograms\Module6\obj\Debug\Module6.Form1.resources
+U:\CIS605\SamplePrograms\Module6\obj\Debug\Module6.Properties.Resources.resources
+U:\CIS605\SamplePrograms\Module6\obj\Debug\Module6.csproj.GenerateResource.cache
+U:\CIS605\SamplePrograms\Module6\obj\Debug\Module6.csproj.CoreCompileInputs.cache
+U:\CIS605\SamplePrograms\Module6\obj\Debug\Module6.exe
+U:\CIS605\SamplePrograms\Module6\obj\Debug\Module6.pdb
+U:\CIS605\SamplePrograms\Module6\obj\Debug\Module6.Module6Ex1.resources
+U:\CIS605\SamplePrograms\Module6\obj\Debug\Module6.Module6Ex2.resources
+U:\CIS605\SamplePrograms\Module6\obj\Debug\Module6.Module6Ex3.resources

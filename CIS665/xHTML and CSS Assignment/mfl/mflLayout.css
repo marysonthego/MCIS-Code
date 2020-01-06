@@ -1,0 +1,66 @@
+@charset "utf-8";
+/*
+    CIS665 HTML and CSS Assignment
+
+    MFL "Marked for Later" aka "My Favorite Links"
+
+    Filename: mflLayout.css
+
+    Link: http://cisweb.biz.colostate.edu/cis665/sp19clark.mclark59/MFL/mflIndex.html
+
+    Author: Mary Clark
+
+    Date: 02/13/2019
+
+*/
+
+html {
+	height: 100%;
+}
+img, object, embed, video {
+        width: 100%;
+	max-width: 100%;
+}
+body {
+	margin-left: auto;
+	margin-right: auto;
+        width: 88%;
+        max-width: 900px;
+	padding-left: 1%;
+	padding-right: 1%;
+	clear: both;
+	float: none;
+	min-height: 100%;
+	background-color: cadetblue;  
+	box-shadow: 20px 0px 900px 40px silver, -20px 0px 900px 40px silver;
+}
+
+body > header {
+   background:linear-gradient(cadetblue, cadetblue, lightgrey);
+   padding-bottom:20px;
+}
+
+nav {
+        display: table;
+	width: 96%;
+	margin: 0 auto;
+	float: left;
+}
+nav ul {
+	display: table-row;
+	margin: 0;
+}
+nav ul li {
+	display: table-cell;
+	width: 20%;
+	text-align: center;
+	margin: 0;
+}
+nav ul li a {
+        display: inline-block;
+}
+article {
+        margin-top: 60px;
+	width: 73%;
+	float: none;
+}

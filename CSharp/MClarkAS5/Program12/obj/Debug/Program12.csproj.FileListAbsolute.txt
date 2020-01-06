@@ -1,0 +1,13 @@
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program12\bin\Debug\Program12.exe.config
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program12\bin\Debug\Program12.exe
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program12\bin\Debug\Program12.pdb
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program12\bin\Debug\en-US\Program12.resources.dll
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program12\obj\Debug\Program12.csprojAssemblyReference.cache
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program12\obj\Debug\Program12.ProjectileForm.resources
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program12\obj\Debug\Program12.Properties.Resources.resources
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program12\obj\Debug\Program12.ProjectileForm.en-US.resources
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program12\obj\Debug\Program12.csproj.GenerateResource.cache
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program12\obj\Debug\Program12.csproj.CoreCompileInputs.cache
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program12\obj\Debug\en-US\Program12.resources.dll
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program12\obj\Debug\Program12.exe
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program12\obj\Debug\Program12.pdb

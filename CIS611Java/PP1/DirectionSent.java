@@ -1,0 +1,322 @@
+
+//*********************************************************************
+//*                                                                   *
+//*   CIS611                Spring, 2019    Tristan Krug & Mary Clark *
+//*                                                                   *
+//*                    Programming Project PP1                        *
+//*                                                                   *
+//*                         Description                               *
+//*  Class Name: Direction                                            *
+//*                                                                   *
+//*  The purpose of the Direction class is to solve a maze based on a *
+//*  set of provided Movement Rules. All logic for movement is        *
+//*  contained in the run() method. The Movement Rules are:           *
+//*  1. The student icon is always in the row and column zero         *
+//*  2. The Java logo can be anywhere in the maze                     *
+//*  3. Maze contains moving obstacles shown as "Wrong Way" signs     *
+//*  4. The first row and column is index 0, the second row and column* 
+//*     is index 1, and so on. The number zero is even number         *
+//*  5. Following the steps below, you should move student icon from  *
+//*     left to right                                                 *
+//*  6. On even columns, you must move up to down, on odd columns,    *
+//*     you must move down to up                                      *
+//*  7. Call maze.isDone() for every move to see if you have found    *
+//*     the Java logo                                                 *
+//*  8. After completing each column (either moving to the top or     *
+//*     down), use move up/down method to proceed to the next row,    *
+//*     stop when you reach the last cell (with index of row 0 and    *
+//*     number of column-1) or find the Java logo                     *
+//*  9. You should check the column and row boundaries to start moving* 
+//*     in the reverse direction when boundaries are reached          *
+//* 10. You should check the return value from move methods for every *
+//*     call, true means no obstacle, false means obstacle            *
+//*     (cannot move).                                                *
+//* 11. At row 0 or the last row, where you cannot move up or down    *
+//*     any further, respectively, move right in order to either      *
+//*     move down in even rows or up in odd rows                      *
+//* 12. If you encounter an obstacle when moving down on even columns:*
+//*         o Move right, down, down, and then left                   *
+//*         o Adjust the control loops for the extra moves!           *
+//* 13. If you encounter an obstacle when moving up on odd columns:   *
+//*         o Move left, up, up, and then right.                      *
+//*         o Adjust the control loop for the extra moves!            *
+//* 14. When the Java logo is found, you must immediately break       *
+//*     out of all loops, and show an appropriate message in the      *
+//*     text area indicating Java Logo is found.                      *
+//*********************************************************************
+*/
+
+public class Direction extends Thread {
+
+	Maze maze;
+	Position location;
+
+	Direction(Maze maze, Position location) {
+
+		this.maze = maze;
+		this.location = location;
+	}
+
+	public void run() {
+
+		String vDir = "down"; 				// The current vertical direction of the player
+		String hDir = "right"; 				// The current horizontal direction of the player
+		int vMax = maze.getHeight() - 1;	// The "top" of the current column where the player will turn around once hit
+		int hMax = maze.getWidth() - 1; 	// The far right side of the maze where the player will turn around
+		int iBlock = -1; 					// The obstacle resolution state. -1 is deactivated (no current obstacle)
+
+		// Movement block - should only exit when the maze is complete OR at the end of the maze
+		while (!maze.isDone()) {
+
+			// Advancing block - Moves the student forward until a boundary OR obstacle is hit.
+			// Check if at max, try to move forward. If successfully moves forward then repeat.
+			// If blocked then initiate obstacle block. If at max then move on to turning block.
+			while (maze.getCurrRow() != vMax && !maze.isDone()) {
+				
+				// First check if you're at the max column position
+				// if not then head in vDir direction
+				if (vDir == "down") { 		// try to move down
+					if (!maze.moveDown()) { // if an obstacle is is the way
+						maze.moveRight(); 	// navigate around obstacle
+						iBlock = 2; 		// set obstacle condition
+					}
+				} else { 					// try to move Up
+					if (!maze.moveUp()) { 	// if an obstacle is is the way
+						maze.moveLeft(); 	// navigate around obstacle
+						iBlock = 2; 		// set obstacle modifier
+					}
+				}
+				this.printCurrLoc();
+				
+				// Obstacle block - If an obstacle has been set then this block resolves it
+				if (iBlock > 0) { 	// move forward if the obstacle is 1 or 2 (to move 2 spaces)
+					iBlock--; 		// decrement obstacle if larger than zero
+				} else if (iBlock == 0 && !maze.isDone()) { // when the obstacle count decrements to zero initiate a turn
+					if (vDir == "down") {
+						maze.moveLeft(); 	// Turn in the correct direction depending on your current vDir
+					} else {
+						maze.moveRight(); 	// Turn in the correct direction depending on your current vDir
+					}
+					iBlock = -1; 			// turn off the block state once it has been resolved
+					this.printCurrLoc();
+				}
+			}
+
+			//break out of the loop if the student has navigated to the final square
+			if (maze.getCurrRow() == vMax && maze.getCurrCol() == hMax) break;
+
+			// Turning block - Only accessed when the student has hit a boundary
+			if (!maze.isDone()) {
+				// Turn in the direction as established by hDir
+				if (hDir == "right") {
+					maze.moveRight();
+				} else {
+					maze.moveLeft();
+				}
+				// reassign vDir and vMax for the new column & vertical direction
+				if (maze.getCurrCol() % 2 == 0) { // current location is EVEN - go DOWN
+					vDir = "down";
+					vMax = maze.getHeight() - 1;
+				} else { // current location is ODD - go UP
+					vDir = "up";
+					vMax = 0;
+				}
+				this.printCurrLoc();
+			}
+		}
+		
+		// Print the final status of the maze
+		if (maze.isDone()) {
+			location.textArea.append("Logo Found \n");
+		} else {
+			location.textArea.append("Logo could not be found \n");
+		}
+		
+		// PP1 Part 1 2/21/2019
+		/* Remove (comment) all code from Part I that moves the student icon in the maze.
+		 
+	    char lastMove = 'D';
+	    
+		while (!this.maze.isDone()) {
+			//System.out.println("lastMove = " + lastMove);
+			if (lastMove == 'D') { //down
+				if (this.maze.moveDown()) {
+				    lastMove = 'D';
+				    location.textArea.append("Success" + "\n");
+				    location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+				    if (maze.isDone())
+				        break;
+				} else { //can't move down
+				    location.textArea.append("Failure" + "\n");
+				    location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+				    if (this.maze.moveRight()) {
+				        lastMove = 'R';
+				        location.textArea.append("Success" + "\n");
+				        location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+				        if (maze.isDone())
+				            break;
+				        } else { //can't move right
+				            location.textArea.append("Failure" + "\n");
+				            location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+				            if (this.maze.moveLeft()) {
+				                lastMove = 'L';
+				                location.textArea.append("Success" + "\n");
+				                location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+				                if (maze.isDone())
+				                    break;
+				            } else { //can't move left
+				                location.textArea.append("Failure" + "\n");
+				                location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+				                if (this.maze.moveUp()) {
+				                    lastMove = 'U';
+				                    location.textArea.append("Success" + "\n");
+				                    location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+				                    if (maze.isDone())
+				                        break;
+				                } else // can't move up
+				                    location.textArea.append("Failure" + "\n");
+				                    location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+				            } // end can't move left
+				        } // end can't move right
+				    } // end can't move down
+			    } // end if last move was down
+			
+			else { if (lastMove == 'L') {  //left
+				if (this.maze.moveLeft()) {
+				    lastMove = 'L';
+				    location.textArea.append("Success" + "\n");
+				    location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+                    if (maze.isDone())
+                        break;
+				} else { // can't move left
+                    location.textArea.append("Failure" + "\n");
+                    location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+                    if (this.maze.moveDown()) {
+                        lastMove = 'D';
+                        location.textArea.append("Success" + "\n");
+                        location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+                        if (maze.isDone())
+                            break;
+                    } else {
+                        location.textArea.append("Failure" + "\n");
+                        location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+                        if (this.maze.moveUp()) {
+                            lastMove = 'U';
+                            location.textArea.append("Success" + "\n");
+                            location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+                            if (maze.isDone())
+                                break;
+                        } else {
+                            location.textArea.append("Failure" + "\n");
+                            location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+                            if (this.maze.moveRight()) {
+                                lastMove = 'R';
+                                location.textArea.append("Success" + "\n");
+                                location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+                                if (maze.isDone())
+                                    break;
+                            } else
+                                location.textArea.append("Failure" + "\n");
+                                location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+                        }  // end can't move up
+                    } // end can't move down
+				} // end can't move left
+			} // end if last move was left
+			
+			else { if (lastMove == 'U') {  //up
+				if (this.maze.moveUp()) {
+                    lastMove = 'U';
+                    location.textArea.append("Success" + "\n");
+                    location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+                    if (maze.isDone())
+                        break;
+                } else { // can't move up
+                    location.textArea.append("Failure" + "\n");
+                    location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+                    if (this.maze.moveLeft()) {
+                        lastMove = 'L';
+                        location.textArea.append("Success" + "\n");
+                        location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+                        if (maze.isDone())
+                            break;
+                    } else { // can't move left
+                        location.textArea.append("Failure" + "\n");
+                        location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+                        if (this.maze.moveRight()) {
+                            lastMove = 'R';
+                            location.textArea.append("Success" + "\n");
+                            location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+                            if (maze.isDone())
+                                break;
+                        } else { // can't move right
+                            location.textArea.append("Failure" + "\n");
+                            location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+                            if (this.maze.moveDown()) {
+                                lastMove = 'D';
+                                location.textArea.append("Success" + "\n");
+                                location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+                                if (maze.isDone())
+                                    break;
+                            } else
+                                location.textArea.append("Failure" + "\n");
+                                location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+                        } // end can't move right
+                    } // end can't move left
+                } // end can't move up
+			} // end if last move was up
+			
+			else { if (lastMove == 'R') {  //right
+				    if (this.maze.moveRight()) {
+				        lastMove = 'R';
+				        location.textArea.append("Success" + "\n");
+				        location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+				        if (maze.isDone())
+				            break;
+				    } else { // can't move right
+				        location.textArea.append("Failure" + "\n");
+				        location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+				        if (this.maze.moveDown()) {
+				            lastMove = 'D';
+				            location.textArea.append("Success" + "\n");
+				            location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+				            if (maze.isDone())
+				                break;
+				        } else { // can't move down
+				            location.textArea.append("Failure" + "\n");
+				            location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+				            if (this.maze.moveUp()) {
+				                lastMove = 'U';
+				                location.textArea.append("Success" + "\n");
+				                location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+				                if (maze.isDone())
+				                    break;
+				            } else { // can't move up
+				                location.textArea.append("Failure" + "\n");
+				                location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+				                if (this.maze.moveLeft()) {
+				                    lastMove = 'L';
+				                    location.textArea.append("Success" + "\n");
+				                    location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+				                    if (maze.isDone())
+				                        break;
+				                } else
+				                    location.textArea.append("Failure" + "\n");
+				                    location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+				                } // end can't move up
+				            } // end can't move down
+				        } // end can't move right
+			        } // end if last move was right
+			    } // end else if last move was right
+			} // end else if last move was up
+		} // end else if last move was left			
+	} // end while			
+		location.textArea.append("Logo Found \n");
+		location.textArea.append("Moved to row " + maze.getCurrRow() + ", column " + maze.getCurrCol() + "\n");
+*/  // End Part 1
+	}
+
+	public void printCurrLoc() {
+		// function to print the current student location to textArea
+		location.textArea.append("Moved to row " + maze.getCurrRow() +", column " + maze.getCurrCol() + "\n");
+	}
+}

@@ -1,0 +1,528 @@
+Pos	Num	Player Name                   	Status	TCKL	SCK	INT	Team
+DB		Abram, Johnathan              	UDF	--	--	--	OAK
+DB	26	Adams, Andrew                 	ACT	38	0.0	4	DET
+SS	33	Adams, Jamal                  	ACT	115	3.5	1	NYJ
+FS	29	Adams, Mike                   	UFA	75	0.0	3	CAR
+SS	37	Addae, Jahleel                	ACT	75	1.0	1	HOU
+DB		Adderley, Nasir               	UDF	--	--	--	LAC
+CB	39	Agnew, Jamal                  	ACT	7	0.0	--	DET
+DB	35	Aikens, Walt                  	ACT	11	0.0	1	MIA
+DB	39	Alexander, Adonis             	ACT	4	0.0	--	WAS
+CB	23	Alexander, Jaire              	ACT	66	0.5	1	GB
+CB	20	Alexander, Mackensie          	ACT	43	4.0	--	MIN
+DB	35	Alexander, Maurice            	ACT	10	0.0	--	BUF
+CB	23	Alford, Robert                	ACT	50	0.0	--	ARI
+CB	29	Allen, Brian                  	ACT	1	0.0	--	PIT
+DB	27	Allen, Marcus                 	ACT	2	0.0	--	PIT
+FS	37	Allen, Ricardo                	ACT	17	0.0	1	ATL
+CB		Amadi, Ugo                    	UDF	--	--	--	SEA
+DB	38	Amerson, David                	ACT	21	0.0	1	ARI
+SS	38	Amos, Adrian                  	ACT	73	1.0	2	GB
+CB	20	Amukamara, Prince             	ACT	66	0.0	3	CHI
+DB	30	Apke, Troy                    	ACT	1	0.0	--	WAS
+CB	25	Apple, Eli                    	ACT	75	0.0	2	NO
+DB	31	Armstrong, Cornell            	ACT	8	0.0	--	MIA
+DB		Austin, Blessuan              	UDF	--	--	--	NYJ
+CB	28	Averett, Anthony              	ACT	5	0.0	--	BAL
+CB	24	Awuzie, Chidobe               	ACT	71	0.0	1	DAL
+DB	23	Bademosi, Johnson             	ACT	10	0.0	--	HOU
+SS	36	Baker, Budda                  	ACT	102	2.0	--	ARI
+CB		Baker, Deandre                	UDF	--	--	--	NYG
+DB		Ballentine, Corey             	UDF	--	--	--	NYG
+DB	31	Banjo, Chris                  	ACT	10	0.0	2	NO
+FS	30	Bates, Jessie                 	ACT	111	0.0	3	CIN
+CB	41	Bausby, DeVante               	ACT	14	0.0	--	DEN
+DB	41	Beal, Sam                     	ACT	--	--	--	NYG
+SS	24	Bell, Vonn                    	ACT	89	1.0	--	NO
+CB	37	Benwikere, Bene'              	UFA	54	0.5	1	OAK
+DB	31	Berhe, Nat                    	UFA	3	0.0	--	PIT
+DB	29	Berry, Eric                   	UFA	11	0.0	--	KC
+FS	41	Bethea, Antoine               	ACT	121	3.0	--	NYG
+DB	28	Bethel, Justin                	ACT	14	0.0	--	BAL
+DB		Blair, Marquise               	UDF	--	--	--	SEA
+DB	41	Blanding, Quin                	ACT	--	--	--	CAR
+CB	20	Boddy-Calhoun, Briean         	ACT	56	0.0	--	HOU
+CB	31	Borders, Breon                	ACT	0	--	--	JAX
+DB	33	Boston, Tre                   	UFA	79	0.0	3	ARI
+CB	21	Bouye, A.J.                   	ACT	54	0.0	1	JAX
+DB		Boyd, Kris                    	UDF	--	--	--	MIN
+DB	1	Boykins, Jeremy               	ACT	--	--	--	SEA
+CB	24	Bradberry, James              	ACT	70	1.0	1	CAR
+DB	38	Branch, Marcelis              	ACT	--	--	--	PIT
+DB	26	Breeland, Bashaud             	ACT	20	0.0	2	KC
+SS	29	Brice, Kentrell               	ACT	50	1.0	--	TB
+DB	22	Brock, Tramaine               	ACT	23	0.0	--	ARI
+DB	23	Brooks, Terrence              	ACT	10	0.0	--	NE
+CB	30	Brown, Anthony                	ACT	44	2.0	1	DAL
+DB		Brown, Cody                   	ACT	--	--	--	JAX
+DB		Brown, Jordan                 	UDF	--	--	--	CIN
+DB	28	Brown, Tony                   	ACT	34	0.0	--	GB
+DB	38	Bryant, Brandon               	ACT	0	--	--	NYJ
+DB		Bunting, Sean                 	UDF	--	--	--	TB
+SS	42	Burnett, Morgan               	ACT	30	0.0	--	CLE
+CB	25	Burns, Artie                  	ACT	22	0.0	--	PIT
+CB	31	Burris, Juston                	ACT	2	0.0	0	CLE
+DB	39	Burton, Deante                	ACT	5	0.0	0	HOU
+DB	26	Bush, Deon                    	ACT	8	1.0	--	CHI
+DB	20	Bush, Rafael                  	ACT	45	1.5	--	BUF
+CB	21	Butler, Malcolm               	ACT	69	1.0	3	TEN
+FS	31	Byard, Kevin                  	ACT	90	2.0	4	TEN
+CB	40	Calhoun, Taveze               	ACT	--	--	--	ATL
+CB	37	Callahan, Bryce               	ACT	45	2.0	2	DEN
+DB	33	Campbell, Chris               	ACT	--	--	--	NO
+DB	39	Campbell, Ibraheim            	UFA	19	0.0	0	GB
+DB		Campbell, Tevaughn            	ACT	--	--	--	NYJ
+CB	26	Canady, Maurice               	ACT	5	0.0	--	BAL
+CB	24	Carr, Brandon                 	ACT	45	0.0	2	BAL
+DB	38	Carrie, T.J.                  	ACT	74	1.0	1	CLE
+DB	20	Carter, Jamal                 	ACT	--	--	--	DEN
+DB	36	Chachere, Andre               	ACT	0	--	--	DET
+DB	31	Chancellor, Kam               	ACT	--	--	--	SEA
+DB	36	Chandler, Sean                	ACT	18	1.0	--	NYG
+DB	41	Christian, Marqui             	ACT	36	0.0	--	LA
+SS	23	Chung, Patrick                	ACT	84	0.5	1	NE
+CB	21	Claiborne, Morris             	UFA	57	0.0	2	NYJ
+DB	36	Clark, Chuck                  	ACT	21	0.0	1	BAL
+CB	34	Clark, Jeremy                 	ACT	0	--	--	NYJ
+SS	20	Clinton-Dix, Ha Ha            	ACT	93	1.0	3	CHI
+DB	47	Cockrell, Ross                	ACT	--	--	--	CAR
+FS	27	Colbert, Adrian               	ACT	21	0.0	--	SF
+CB	28	Coleman, Justin               	ACT	55	0.5	1	DET
+SS	29	Coleman, Kurt                 	UFA	32	0.0	--	NO
+CB	32	Collins, Jalen                	ACT	0	--	--	IND
+SS	20	Collins, Landon               	ACT	96	0.0	--	WAS
+CB	22	Colvin, Aaron                 	ACT	29	0.0	--	HOU
+CB	21	Conley, Gareon                	ACT	37	0.0	3	OAK
+FS	23	Conte, Chris                  	UFA	14	0.0	--	TB
+DB	37	Cooper, Chris                 	ACT	--	--	--	ATL
+DB	21	Cooper, Marcus                	ACT	1	0.0	0	DET
+DB	27	Cox, Demetrious               	ACT	--	--	--	CIN
+DB	21	Cravens, Su'a                 	ACT	18	0.0	--	DEN
+DB		Crawford, Xavier              	UDF	--	--	--	HOU
+CB	20	Crawley, Ken                  	ACT	31	0.0	--	NO
+DB	35	Crossen, Keion                	ACT	14	0.0	--	NE
+DB	29	Cruikshank, Dane              	ACT	11	0.0	--	TEN
+DB	37	Cyprien, Johnathan            	UFA	--	--	--	TEN
+DB	37	Dangerfield, Jordan           	ACT	7	0.0	--	PIT
+DB	31	Daniel, Robertson             	ACT	0	--	--	BAL
+CB	21	Darby, Ronald                 	ACT	43	0.0	1	PHI
+CB	33	Davis, Carlton                	ACT	40	0.0	--	TB
+DB	22	Davis, Cody                   	ACT	10	0.0	--	JAX
+CB	36	Davis, Jalen                  	ACT	6	1.0	--	MIA
+CB	43	Davis, Michael                	ACT	50	0.0	--	LAC
+FS	21	Davis, Sean                   	ACT	80	0.0	1	PIT
+DB	29	Dawson, Duke                  	ACT	0	--	--	NE
+DB		Dean, Jamel                   	UDF	--	--	--	TB
+CB	38	Deayon, Donte'                	ACT	6	0.0	--	LA
+DB	34	Decoud, Treston               	ACT	0	--	--	DAL
+DB		Denmark, Stephen              	UDF	--	--	--	CHI
+DB	21	Dennard, Darqueze             	ACT	68	0.0	--	CIN
+CB	35	Desir, Pierre                 	ACT	79	0.0	1	IND
+SS	28	Diggs, Quandre                	ACT	78	0.0	3	DET
+CB	43	Dorleant, Makinton            	ACT	--	--	--	OAK
+CB	31	Doss, Lorenzo                 	ACT	1	0.0	--	CAR
+CB	32	Douglas, Rasul                	ACT	58	0.0	3	PHI
+CB	23	Dunbar, Quinton               	ACT	39	0.0	2	WAS
+DB	20	Durden, Kenneth               	ACT	0	--	--	TEN
+DB	43	Ebner, Nate                   	ACT	13	0.0	--	NE
+SS	34	Edmunds, Terrell              	ACT	78	1.0	1	PIT
+SAF		Edwards, Mike                 	UDF	--	--	--	TB
+CB	35	Elder, Corn                   	ACT	3	0.0	--	CAR
+DB	21	Elliott, DeShon               	ACT	--	--	--	BAL
+CB	35	Elliott, Javien               	UFA	24	0.0	1	TB
+SAF		Epps, Marcus                  	UDF	--	--	--	MIN
+SS	21	Evans, Justin                 	ACT	59	0.0	1	TB
+DB	25	Evans, Marwin                 	ACT	--	--	--	SEA
+DB	22	Everett, Deshazor             	ACT	26	0.0	1	WAS
+SS	38	Exum, Antone                  	ACT	40	1.0	1	SF
+DB	36	Facyson, Brandon              	ACT	3	0.0	--	LAC
+DB	29	Fant, Rashard                 	ACT	--	--	--	CHI
+DB	41	Farley, Matthias              	ACT	19	0.0	1	IND
+DB	42	Fejedelem, Clayton            	ACT	35	0.0	--	CIN
+DB		Fenton, Rashad                	UDF	--	--	--	KC
+FS	29	Fitzpatrick, Minkah           	ACT	80	0.0	2	MIA
+CB	37	Flowers, Tre                  	ACT	67	0.0	--	SEA
+DB	30	Ford, Rudy                    	ACT	9	0.0	--	ARI
+DB	38	Ford, Mike                    	ACT	25	0.0	--	DET
+DB	43	Franklin, John                	ACT	--	--	--	CHI
+FS	35	Frazier, Kavon                	ACT	23	1.0	--	DAL
+CB	23	Fuller, Kendall               	ACT	82	0.0	2	KC
+CB	23	Fuller, Kyle                  	ACT	55	0.0	7	CHI
+CB	28	Gaines, E.J.                  	ACT	13	0.0	1	BUF
+CB	33	Gaines, Phillip               	ACT	39	0.0	0	CLE
+SAF		Gant, Malik                   	ACT	--	--	--	NE
+SAF		Gardner-Johnson, Chauncey     	UDF	--	--	--	NO
+DB	28	Gaulden, Rashaan              	ACT	17	0.0	--	CAR
+SS	26	Geathers, Clayton             	ACT	89	0.0	--	IND
+SS	31	Gilchrist, Marcus             	UFA	58	0.0	3	OAK
+CB	24	Gilmore, Stephon              	ACT	45	1.0	2	NE
+FS	39	Gipson, Tashaun               	ACT	54	0.0	1	HOU
+DB	39	Golden, Malik                 	UFA	--	--	--	PIT
+DB	29	Goodwin, C.J.                 	ACT	1	0.0	--	DAL
+FS	24	Graham, Corey                 	UFA	56	0.0	1	PHI
+DB	48	Gray, J.T.                    	ACT	2	0.0	--	NO
+DB	36	Greene, Raven                 	ACT	5	1.0	--	GB
+CB	26	Griffin, Shaquill             	ACT	62	0.0	2	SEA
+CB	24	Grimes, Brent                 	UFA	48	0.0	--	TB
+CB	23	Haden, Joe                    	ACT	63	0.0	2	PIT
+CB	27	Hairston, Nate                	ACT	30	0.0	--	IND
+DB	34	Haley, Grant                  	ACT	33	0.0	--	NYG
+DB	36	Hall, Deiondre'               	ACT	4	0.0	--	PHI
+DB	29	Hall, Leon                    	UFA	25	0.0	--	OAK
+CB	30	Hamilton, Antonio             	ACT	6	0.0	--	NYG
+SAF		Hampton, Saquan               	UDF	--	--	--	NO
+DB		Hansen, Chase                 	ACT	--	--	--	NO
+DB	34	Hardee, Justin                	ACT	19	0.0	1	NO
+CB	28	Hargreaves, Vernon III        	ACT	7	0.0	--	TB
+SS	21	Harmon, Duron                 	ACT	38	0.0	4	NE
+DB	41	Harris, Anthony               	ACT	46	0.0	3	MIN
+CB	25	Harris, Chris                 	ACT	49	1.0	3	DEN
+CB	35	Harris, Davontae              	ACT	1	0.0	--	CIN
+CB	22	Harris, De'Vante              	ACT	9	0.0	--	TB
+FS	25	Harris, Erik                  	ACT	49	0.0	2	OAK
+DB	36	Harris, Marcell               	ACT	34	0.0	--	SF
+CB		Harris, Tim                   	UDF	--	--	--	SF
+DB		Harris, Will                  	UDF	--	--	--	DET
+DB	36	Harrison, Ronnie              	ACT	32	1.0	1	JAX
+CB	36	Hatfield, Dominique           	ACT	1	0.0	--	LA
+CB	48	Hawkins, Josh                 	ACT	0	0.0	0	PHI
+DB	25	Hayden, D.J.                  	ACT	46	1.0	1	JAX
+CB	26	Hayward, Casey                	ACT	46	0.0	--	LAC
+SS	38	Heath, Jeff                   	ACT	85	0.0	1	DAL
+DB	41	Henderson, Trayvon            	ACT	--	--	--	CIN
+DB	37	Hendy, A.J.                   	ACT	--	--	--	HOU
+CB	41	Herndon, Tre                  	ACT	13	0.0	--	JAX
+DB	42	Hill, Delano                  	ACT	24	0.0	--	SEA
+DB	24	Hill, Holton                  	ACT	36	0.0	1	MIN
+CB	32	Hill, Troy                    	RFA	34	0.0	2	LA
+CB	28	Hilton, Mike                  	ACT	57	1.0	1	PIT
+CB		Holder, Alijah                	ACT	--	--	--	DEN
+CB		Hollman, Ka'Dar               	UDF	--	--	--	GB
+CB	38	Holsey, Joshua                	ACT	2	0.0	--	WAS
+SAF		Hooker, Amani                 	UDF	--	--	--	TEN
+FS	29	Hooker, Malik                 	ACT	44	0.0	2	IND
+DB	31	House, Davon                  	UFA	2	0.0	--	GB
+DB	36	Houston-Carson, DeAndre       	ACT	10	0.0	--	CHI
+DB	42	Howard, A.J.                  	ACT	--	--	--	NE
+CB	25	Howard, Xavien                	ACT	35	0.0	7	MIA
+DB	20	Huff, Marqueston              	UFA	--	--	--	DAL
+CB	21	Hughes, Mike                  	ACT	22	0.0	1	MIN
+CB	29	Humphrey, Marlon              	ACT	37	0.0	2	BAL
+CB	39	Hunter, Michael               	ACT	--	--	--	NYG
+SS	23	Hyde, Micah                   	ACT	58	0.0	2	BUF
+DB	35	Igwebuike, Godwin             	ACT	2	0.0	0	PHI
+SS	23	Iloka, George                 	ACT	16	0.0	--	DAL
+DB	36	Ishmael, Kemal                	ACT	21	0.0	--	ATL
+CB	25	Jackson, Adoree'              	ACT	73	0.0	2	TEN
+DB	39	Jackson, Bennett              	ACT	--	--	--	BAL
+CB	26	Jackson, Donte                	ACT	74	1.0	4	CAR
+FS	39	Jackson, Eddie                	ACT	51	1.0	6	CHI
+DB	27	Jackson, J.C.                 	ACT	24	0.0	3	NE
+CB	37	Jackson, Josh                 	ACT	49	0.0	--	GB
+SS	25	Jackson, Kareem               	ACT	87	1.0	2	DEN
+CB		Jackson, Michael              	UDF	--	--	--	DAL
+DB	34	Jackson, Robert               	ACT	--	--	--	CLE
+CB	22	Jackson, William              	ACT	41	0.0	--	CIN
+DB	21	Jamerson, Natrell             	ACT	10	0.0	0	GB
+DB	36	James, Craig                  	ACT	0	--	--	MIN
+FS	33	James, Derwin                 	ACT	105	3.5	3	LAC
+CB	38	Jean-Baptiste, Stanley        	ACT	--	--	--	BAL
+DB	46	Jefferson, Rickey             	UFA	--	--	--	NO
+SS	23	Jefferson, Tony               	ACT	74	1.0	1	BAL
+CB	20	Jenkins, Janoris              	ACT	70	0.0	2	NYG
+SS	27	Jenkins, Malcolm              	ACT	97	1.0	1	PHI
+DB	23	Jenkins, Rayshawn             	ACT	23	0.5	--	LAC
+DB	41	Johnson, Danny                	ACT	14	0.0	--	WAS
+DB	28	Johnson, Dontae               	ACT	0	0.0	0	KC
+FS	39	Johnson, Isaiah               	ACT	48	0.0	1	TB
+CB		Johnson, Isaiah               	UDF	--	--	--	OAK
+DB		Johnson, Jaquan               	UDF	--	--	--	BUF
+SS	43	Johnson, John                 	ACT	119	0.0	4	LA
+CB	30	Johnson, Kevin                	ACT	4	0.0	--	BUF
+CB		Johnson, Lonnie               	UDF	--	--	--	HOU
+CB	38	Johnson, Trey                 	ACT	--	--	--	DEN
+CB	24	Johnson, Taron                	ACT	42	1.0	1	BUF
+CB	22	Johnson, Trumaine             	ACT	40	0.0	4	NYJ
+CB	31	Jones, Byron                  	ACT	67	0.0	--	DAL
+DB	25	Jones, Chris                  	ACT	0	--	--	ARI
+SS	42	Jones, Colin                  	ACT	20	0.0	1	CAR
+CB	27	Jones, Cyrus                  	ACT	8	0.0	0	BAL
+DB	34	Jones, David                  	ACT	--	--	--	DET
+CB	31	Jones, Derrick                	ACT	3	0.0	--	NYJ
+DB	31	Jones, Jonathan               	ACT	56	1.5	3	NE
+DB	27	Jones, Josh                   	ACT	55	1.0	--	GB
+FS	20	Jones, Reshad                 	ACT	72	0.0	3	MIA
+CB	22	Jones, Sidney                 	ACT	25	0.0	--	PHI
+DB	29	Jones-Quartey, Harold         	ACT	--	--	--	KC
+CB	33	Jordan, Mike                  	ACT	0	--	--	TEN
+CB	24	Joseph, Johnathan             	ACT	58	0.0	2	HOU
+FS	42	Joseph, Karl                  	ACT	48	2.0	1	OAK
+CB	21	Joseph, Michael               	ACT	--	--	--	CHI
+FS	20	Joyner, Lamarcus              	ACT	78	1.0	1	OAK
+DB	46	Kalu, Joshua                  	ACT	4	0.0	--	TEN
+SS	27	Kazee, Damontae               	ACT	82	0.0	7	ATL
+SAF	27	Kearse, Jayron                	ACT	32	0.5	--	MIN
+DB	35	Kelly, Jermaine               	ACT	--	--	--	HOU
+DB	37	Kelly, Kam                    	ACT	--	--	--	PIT
+DB	35	Killebrew, Miles              	ACT	7	0.0	--	DET
+DB	37	Killings, D.J.                	ACT	0	--	--	IND
+CB	26	Kindred, Derrick              	ACT	45	0.0	1	IND
+CB	36	King, Akeem                   	ACT	21	0.0	--	SEA
+DB	20	King, Desmond                 	ACT	62	0.0	3	LAC
+CB	20	King, Kevin                   	ACT	17	0.0	1	GB
+CB	27	Kirkpatrick, Dre              	ACT	41	0.0	--	CIN
+DB	33	Ladler, Kenny                 	ACT	9	0.0	0	NYG
+DB	35	Laguda, Afolabi               	ACT	--	--	--	ATL
+DB	30	Lammons, Chris                	ACT	--	--	--	MIA
+CB	6	Lampkin, Ashton               	ACT	--	--	--	CLE
+CB	23	Lattimore, Marshon            	ACT	59	0.0	2	NO
+CB	24	Lawson, Nevin                 	ACT	53	1.0	--	OAK
+CB		Layne, Justin                 	UDF	--	--	--	PIT
+CB	34	LeBlanc, Cre'von              	ACT	27	0.0	0	PHI
+DB	32	Leavitt, Dallin               	ACT	1	0.0	--	OAK
+DB	41	Levine, Anthony               	ACT	28	1.0	1	BAL
+CB		Lewis, Donnie                 	UDF	--	--	--	CLE
+CB	27	Lewis, Jourdan                	ACT	12	0.0	1	DAL
+SS	28	Lewis, Kendrick               	UFA	27	0.0	--	TEN
+CB	38	Lewis, Ryan                   	ACT	15	0.0	--	BUF
+DB	24	Lippett, Tony                 	ACT	1	0.0	--	NYG
+DB		Long, David                   	UDF	--	--	--	LA
+CB		Love, Julian                  	UDF	--	--	--	NYG
+DB	24	Luani, Shalom                 	ACT	9	0.0	--	SEA
+SS	24	Lucas, Jordan                 	ACT	32	1.0	1	KC
+CB	32	Luke, Cole                    	ACT	--	--	--	CAR
+CB	26	Mabin, Greg                   	ACT	16	0.0	--	SF
+FS	29	Maddox, Avonte                	ACT	35	0.5	2	PHI
+CB	49	Mager, Craig                  	UFA	0	0.0	0	DEN
+DB	42	Maragos, Chris                	UFA	--	--	--	PHI
+SS	31	Marlowe, Dean                 	ACT	5	0.0	--	BUF
+CB		Marshall, Iman                	UDF	--	--	--	BAL
+DB	36	Marshall, Trey                	ACT	0	--	--	DEN
+DB		Martin, Jordan                	ACT	--	--	--	MIN
+DB	20	Martin, Ronald                	UFA	--	--	--	IND
+DB		Maston, Mercy                 	ACT	--	--	--	PHI
+FS	32	Mathieu, Tyrann               	ACT	89	3.0	2	KC
+DB	38	Matthews, Tray                	ACT	--	--	--	GB
+CB	32	Maulet, Arthur                	ACT	9	0.0	0	NYJ
+DB	41	Maxwell, Byron                	ACT	--	--	--	SEA
+FS	26	Maye, Marcus                  	ACT	34	0.5	1	NYJ
+CB	28	McCain, Bobby                 	ACT	61	2.0	1	MIA
+FS	32	McCourty, Devin               	ACT	82	0.0	1	NE
+CB	30	McCourty, Jason               	ACT	70	0.0	1	NE
+CB	23	McDonald, Dexter              	UFA	--	--	--	OAK
+SS	22	McDonald, T.J.                	ACT	86	0.0	3	MIA
+SS	30	McDougald, Bradley            	ACT	78	0.0	3	SEA
+DB		McIntosh, JoJo                	ACT	--	--	--	WAS
+DB	36	McKinnon, Jeremiah            	ACT	1	0.0	--	PHI
+FS	23	McLeod, Rodney                	ACT	10	0.0	--	PHI
+DB	27	McManis, Sherrick             	ACT	26	1.0	1	CHI
+DB	34	McQuay, Leon III              	ACT	0	--	--	KC
+CB	29	McRae, Tony                   	ACT	9	0.0	--	CIN
+CB	24	McTyer, Torry                 	ACT	30	0.0	--	MIA
+DB	36	Meander, Montrel              	ACT	0	--	--	OAK
+CB	43	Meeks, Quenton                	ACT	8	0.0	--	JAX
+DB	22	Melifonwu, Obi                	ACT	3	0.0	--	NE
+CB	22	Melvin, Rashaan               	ACT	56	0.0	1	DET
+FS	36	Middleton, Doug               	ACT	27	0.0	--	NYJ
+DB	45	Miles, Rontez                 	UFA	11	0.0	--	NYJ
+DB		Miller, Jordan                	UDF	--	--	--	ATL
+DB	42	Milligan, Rolan               	ACT	0	--	--	IND
+CB	31	Mills, Jalen                  	ACT	42	0.0	--	PHI
+CB	28	Milton, Chris                 	ACT	10	0.0	--	IND
+DB	25	Mincy, Jonathon               	ACT	--	--	--	CHI
+CB	37	Mitchel, Tevin                	UFA	--	--	--	OAK
+SS	34	Mitchell, Mike                	UFA	28	0.0	1	IND
+CB	39	Mitchell, Terrance            	ACT	38	0.0	1	CLE
+DB	33	Moore, A.J.                   	ACT	11	0.0	--	HOU
+DB	36	Moore, Corey                  	UFA	12	0.0	1	IND
+CB	29	Moore, Kam                    	ACT	0	--	--	NYG
+CB	23	Moore, Kenny                  	ACT	77	1.5	3	IND
+DB	33	Moore, Tarvarius              	ACT	23	0.0	--	SF
+CB	31	Moreau, Fabian                	ACT	58	0.0	1	WAS
+CB		Moreland, Jimmy               	UDF	--	--	--	WAS
+DB	41	Moseley, Emmanuel             	ACT	1	0.0	--	SF
+CB	25	Moxey, Jonathan               	ACT	--	--	--	ARI
+CB		Mullen, Trayvon               	UDF	--	--	--	OAK
+DB	41	Munnerlyn, Captain            	UFA	47	2.0	1	CAR
+CB		Murphy, Byron                 	UDF	--	--	--	ARI
+SS	21	Murray, Eric                  	ACT	55	0.0	1	CLE
+DB	38	Mutcherson, Tevon             	ACT	--	--	--	SEA
+DB	31	Nacua, Kai                    	ACT	--	--	--	CAR
+SS	22	Neal, Keanu                   	ACT	2	0.0	--	ATL
+DB	40	Neal, Ryan                    	ACT	0	--	--	ATL
+DB	29	Neal, Siran                   	ACT	11	1.0	--	BUF
+DB	41	Neasman, Sharrod              	ACT	44	0.0	--	ATL
+CB	23	Nelson, Nick                  	ACT	20	0.0	--	OAK
+FS	27	Nelson, Reggie                	UFA	29	0.0	2	OAK
+CB	20	Nelson, Steven                	ACT	68	0.0	4	PIT
+CB	39	Nichols, Deatrick             	ACT	1	0.0	--	ARI
+SS	35	Nicholson, Montae             	ACT	41	0.0	--	WAS
+DB	43	Nickerson, Parry              	ACT	21	0.0	--	NYJ
+CB	24	Norman, Josh                  	ACT	64	0.0	3	WAS
+DB	30	Odum, George                  	ACT	36	0.0	1	IND
+FS	20	Oliver, Isaiah                	ACT	23	0.0	1	ATL
+CB	32	Olumba, Donovan               	ACT	--	--	--	DAL
+CB		Oruwariye, Amani              	UDF	--	--	--	DET
+DB	42	Owens, Jonathan               	ACT	--	--	--	ARI
+DB	38	Parker, Steven                	ACT	--	--	--	LA
+SS	34	Parks, Will                   	ACT	41	0.0	1	DEN
+DB	25	Parms, Damian                 	ACT	--	--	--	CAR
+DB	23	Patmon, Tyler                 	UFA	14	0.0	--	JAX
+FS	22	Peppers, Jabrill              	ACT	79	1.0	1	NYG
+CB	22	Peters, Marcus                	ACT	43	0.0	3	LA
+CB	25	Peterson, Kevin               	ACT	--	--	--	LA
+CB	21	Peterson, Patrick             	ACT	54	1.0	2	ARI
+DB	31	Phillips, Adrian              	ACT	94	0.0	1	LAC
+CB	23	Phillips, Darius              	ACT	22	0.0	--	CIN
+CB	41	Pipkins, Lenzy                	ACT	9	0.0	0	CLE
+CB	30	Pitts, Lafayette              	ACT	9	0.0	--	BUF
+DB	35	Pleasant, Eddie               	UFA	8	0.0	0	GB
+CB	34	Poole, Brian                  	ACT	74	3.0	3	NYJ
+DB	30	Powell, Tyvis                 	UFA	6	0.0	--	SF
+FS	21	Poyer, Jordan                 	ACT	100	2.0	4	BUF
+FS	27	Quin, Glover                  	UFA	74	1.0	--	DET
+CB	20	Ramsey, Jalen                 	ACT	65	0.0	3	JAX
+SS	23	Randall, Damarious            	ACT	85	0.0	4	CLE
+SAF		Rapp, Taylor                  	UDF	--	--	--	LA
+CB	30	Reaser, Keith                 	ACT	--	--	--	KC
+DB	45	Reaves, Jeremy                	ACT	0	--	--	WAS
+DB	38	Reavis, C.J.                  	ACT	1	0.0	--	JAX
+CB	25	Redmond, Will                 	ACT	1	0.0	--	GB
+DB		Redwine, Sheldrick            	UDF	--	--	--	CLE
+FS	32	Reed, D.J.                    	ACT	41	1.0	--	SF
+DB	39	Reed, Kalan                   	ACT	0	--	--	SEA
+SS	25	Reid, Eric                    	ACT	71	1.0	1	CAR
+SS	20	Reid, Justin                  	ACT	88	0.0	3	HOU
+CB	29	Rhodes, Xavier                	ACT	47	0.0	1	MIN
+DB	37	Rice, Denzel                  	ACT	5	0.0	1	BUF
+DB	29	Richards, Jeff                	ACT	5	0.0	--	LAC
+FS	29	Richards, Jordan              	ACT	39	0.0	--	OAK
+DB	47	Richards, Ramon               	ACT	--	--	--	LA
+CB	38	Richardson, Horace            	ACT	0	--	--	DEN
+FS	35	Riley, Curtis                 	ACT	75	0.0	4	OAK
+CB	37	Rivers, David                 	ACT	0	--	--	TB
+CB	27	Roberts, Darryl               	UFA	48	0.0	1	NYJ
+DB	23	Robey-Coleman, Nickell        	ACT	37	0.0	1	LA
+DB	32	Robinson, Josh                	UFA	6	0.0	--	NO
+DB	21	Robinson, Patrick             	ACT	6	0.0	--	NO
+CB	30	Robinson, Rashard             	ACT	8	0.0	--	NYJ
+DB	49	Robinson, Tyree               	ACT	0	0.0	0	SF
+CB	29	Roby, Bradley                 	ACT	50	0.0	1	HOU
+CB	45	Rodgers-Cromartie, Dominique  	ACT	8	0.0	--	WAS
+CB		Ross, D'Angelo                	ACT	--	--	--	NE
+CB	25	Rowe, Eric                    	ACT	10	0.0	--	MIA
+CB	20	Russell, KeiVarae             	ACT	12	0.0	--	CIN
+CB	26	Ryan, Logan                   	ACT	76	4.0	--	TEN
+DB	25	Sankoh, Tigie                 	ACT	--	--	--	CLE
+DB		Savage, Darnell               	UDF	--	--	--	GB
+DB	22	Scandrick, Orlando            	UFA	44	0.0	1	KC
+SAF		Scott, Nick                   	UDF	--	--	--	LA
+SS	21	Searcy, Da'Norris             	ACT	5	0.0	--	CAR
+SS	34	Sendejo, Andrew               	ACT	27	0.0	--	PHI
+CB	24	Sensabaugh, Coty              	UFA	45	0.0	--	PIT
+CB	27	Seymour, Kevon                	ACT	--	--	--	CAR
+CB	30	Shaw, Josh                    	ACT	12	0.0	0	ARI
+DB	26	Shead, DeShawn                	UFA	18	0.0	--	DET
+DB		Sheffield, Kendall            	UDF	--	--	--	ATL
+CB		Shelley, Duke                 	UDF	--	--	--	CHI
+DB	35	Sherels, Marcus               	ACT	0	--	--	NO
+CB	25	Sherman, Richard              	ACT	37	1.0	--	SF
+CB	37	Shields, Sam                  	UFA	22	0.0	1	LA
+DB	28	Showers, Jameill              	ACT	--	--	--	DAL
+FS	31	Simmons, Justin               	ACT	97	0.0	3	DEN
+CB	36	Sims, LeShaun                 	ACT	22	0.0	--	TEN
+CB	41	Skrine, Buster                	ACT	58	0.5	--	CHI
+CB	23	Slay, Darius                  	ACT	43	0.0	3	DET
+DB	36	Smith, Derron                 	ACT	--	--	--	MIN
+FS	22	Smith, Harrison               	ACT	84	3.0	3	MIN
+CB	22	Smith, Jimmy                  	ACT	45	0.0	2	BAL
+DB	26	Smith, Maurice                	ACT	5	0.0	--	MIA
+CB	29	Smith, Ryan                   	ACT	38	0.0	1	TB
+DB	39	Smith, Tremon                 	ACT	5	0.0	--	KC
+CB	23	Smith, Tye                    	ACT	--	--	--	TEN
+DB	49	Sorensen, Daniel              	ACT	26	0.0	1	KC
+DB	38	Springs, Arrion               	ACT	--	--	--	LAC
+CB	40	Stephens, Linden              	ACT	--	--	--	DEN
+SS	26	Stewart, Darian               	UFA	60	1.0	2	DEN
+CB	36	Stewart, M.J.                 	ACT	33	0.0	--	TB
+DB	45	Stewart, Orion                	ACT	--	--	--	TB
+CB	37	Stroman, Greg                 	ACT	38	0.0	1	WAS
+DB	37	Sullivan, Tre                 	ACT	17	0.0	--	PHI
+CB	20	Sutton, Cameron               	ACT	22	0.0	1	PIT
+FS	35	Swearinger, D.J.              	ACT	53	1.0	4	ARI
+CB	31	Tabor, Teez                   	ACT	28	0.0	--	DET
+CB	21	Talib, Aqib                   	ACT	23	0.0	1	LA
+CB	23	Tankersley, Cordrea           	ACT	5	0.0	--	MIA
+SS	29	Tartt, Jaquiski               	ACT	42	0.0	1	SF
+CB	39	Taylor, Jamar                 	UFA	18	0.0	0	DEN
+SAF		Tell, Marvell                 	UDF	--	--	--	IND
+DB	35	Thomas, Dymonte               	ACT	12	1.0	1	DEN
+FS	29	Thomas, Earl                  	ACT	22	0.0	3	BAL
+DB	31	Thomas, Michael               	ACT	59	1.0	2	NYG
+DB	26	Thomas, Duke                  	ACT	--	--	--	MIN
+DB	38	Thomas, Shamarko              	ACT	7	0.0	--	DEN
+DB	34	Thomas, Simeon                	ACT	--	--	--	SEA
+CB	27	Thomas, Tavierre              	ACT	8	0.0	--	CLE
+DB	20	Thompson, Darian              	ACT	0	--	--	DAL
+SAF		Thompson, Deionte             	UDF	--	--	--	ARI
+FS	33	Thompson, Tedric              	ACT	57	0.0	1	SEA
+CB		Thornhill, Juan               	UDF	--	--	--	KC
+CB	36	Thornton, Josh                	ACT	--	--	--	CAR
+DB	23	Thorpe, Neiko                 	ACT	7	0.0	--	SEA
+CB	39	Tocho, Jack                   	ACT	--	--	--	PIT
+DB	42	Toliver, Henre'               	ACT	--	--	--	NYG
+DB	22	Toliver, Kevin                	ACT	16	0.0	--	CHI
+DB	41	Trawick, Brynden              	UFA	8	0.0	--	TEN
+CB	21	Trufant, Desmond              	ACT	66	1.0	--	ATL
+DB	34	Tyson, Mike                   	ACT	5	0.0	--	HOU
+SS	24	Vaccaro, Kenny                	ACT	58	2.0	1	TEN
+DB	22	Verrett, Jason                	ACT	--	--	--	SF
+DB	30	Virgin, Dee                   	ACT	1	0.0	--	DET
+DB	40	Wade, D'Montre                	ACT	--	--	--	KC
+DB	47	Walker, Tracy                 	ACT	21	0.0	1	DET
+DB	47	Wallace, Levi                 	ACT	37	0.0	--	BUF
+CB	35	Ward, Charvarius              	ACT	30	0.0	--	KC
+CB	21	Ward, Denzel                  	ACT	53	0.0	3	CLE
+CB	20	Ward, Jimmie                  	ACT	24	0.0	--	SF
+DB	45	Washington, Charles           	ACT	6	0.0	--	DET
+CB	26	Waters, Herb                  	ACT	--	--	--	PIT
+DB	27	Watkins, Jaylen               	ACT	--	--	--	LAC
+DB	25	Watts, Armani                 	ACT	5	1.0	--	KC
+CB	26	Waynes, Trae                  	ACT	44	0.0	1	MIN
+DB	35	Webb, Damon                   	ACT	--	--	--	TEN
+CB	23	Webb, B.W.                    	ACT	59	1.0	1	CIN
+DB	36	Webster, Kayvon               	UFA	1	0.0	--	HOU
+DB		Webster, Ken                  	UDF	--	--	--	NE
+FS	32	Weddle, Eric                  	ACT	68	1.0	--	LA
+CB	27	White, Tre'Davious            	ACT	54	0.0	2	BUF
+DB	35	Whitehead, Jermaine           	ACT	24	1.0	0	CLE
+FS	31	Whitehead, Jordan             	ACT	76	0.0	--	TB
+DB	37	Wilcox, J.J.                  	ACT	7	0.0	0	ATL
+CB		Williams, Greedy              	UDF	--	--	--	CLE
+CB	26	Williams, Brandon             	ACT	10	0.0	--	ARI
+DB	27	Williams, Darious             	ACT	0	0.0	0	LA
+DB		Williams, Darius              	ACT	--	--	--	NO
+CB		Williams, Joejuan             	UDF	--	--	--	NE
+DB	24	Williams, K'Waun              	ACT	45	0.0	--	SF
+CB	26	Williams, P.J.                	ACT	53	1.0	1	NO
+FS	43	Williams, Marcus              	ACT	59	1.0	2	NO
+DB	31	Williams, Marcus              	UFA	4	0.0	0	CHI
+SS	36	Williams, Shawn               	ACT	110	1.0	5	CIN
+CB	38	Williams, Tramon              	ACT	54	0.0	--	GB
+CB	24	Williams, Trevor              	ACT	23	0.0	1	LAC
+SAF		Willis, Khari                 	UDF	--	--	--	IND
+DB	40	Wilson, Brandon               	ACT	11	0.0	--	CIN
+DB		Wilson, Donovan               	UDF	--	--	--	DAL
+DB	26	Wilson, Jarrod                	ACT	21	0.0	--	JAX
+CB	31	Wilson, Quincy                	ACT	28	0.0	1	IND
+DB	32	Wilson, Tavon                 	ACT	36	1.0	--	DET
+CB	22	Wiltz, Jomal                  	ACT	--	--	--	MIA
+CB	23	Witherspoon, Ahkello          	ACT	37	0.0	--	SF
+FS	25	Woods, Xavier                 	ACT	56	0.0	2	DAL
+CB	20	Worley, Daryl                 	ACT	33	0.0	1	OAK
+DB	33	Wreh-Wilson, Blidi            	ACT	4	0.0	--	ATL
+DB	43	Wright, Shareece              	UFA	32	0.0	--	HOU
+CB		Ya-Sin, Rock                  	UDF	--	--	--	IND
+CB	41	Yiadom, Isaac                 	ACT	20	0.0	1	DEN
+CB	25	Young, Tavon                  	ACT	37	2.0	1	BAL
+CB	29	Zamort, Ronald                	ACT	--	--	--	NYG

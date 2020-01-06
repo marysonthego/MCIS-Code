@@ -1,0 +1,10 @@
+C:\Users\marys\source\repos\MClarkAS3\Program8\bin\Debug\Program8.exe.config
+C:\Users\marys\source\repos\MClarkAS3\Program8\bin\Debug\Program8.exe
+C:\Users\marys\source\repos\MClarkAS3\Program8\bin\Debug\Program8.pdb
+C:\Users\marys\source\repos\MClarkAS3\Program8\obj\Debug\Program8.csprojAssemblyReference.cache
+C:\Users\marys\source\repos\MClarkAS3\Program8\obj\Debug\Program8.PayStubForm.resources
+C:\Users\marys\source\repos\MClarkAS3\Program8\obj\Debug\Program8.Properties.Resources.resources
+C:\Users\marys\source\repos\MClarkAS3\Program8\obj\Debug\Program8.csproj.GenerateResource.cache
+C:\Users\marys\source\repos\MClarkAS3\Program8\obj\Debug\Program8.csproj.CoreCompileInputs.cache
+C:\Users\marys\source\repos\MClarkAS3\Program8\obj\Debug\Program8.exe
+C:\Users\marys\source\repos\MClarkAS3\Program8\obj\Debug\Program8.pdb

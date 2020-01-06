@@ -1,0 +1,11 @@
+C:\Users\marys\source\repos\CIS605AS6\bin\Debug\MClarkAS6.exe.config
+C:\Users\marys\source\repos\CIS605AS6\bin\Debug\MClarkAS6.exe
+C:\Users\marys\source\repos\CIS605AS6\bin\Debug\MClarkAS6.pdb
+C:\Users\marys\source\repos\CIS605AS6\obj\Debug\MClarkAS6.Program14.resources
+C:\Users\marys\source\repos\CIS605AS6\obj\Debug\MClarkAS6.Program15.resources
+C:\Users\marys\source\repos\CIS605AS6\obj\Debug\MClarkAS6.Properties.Resources.resources
+C:\Users\marys\source\repos\CIS605AS6\obj\Debug\MClarkAS6.csproj.GenerateResource.cache
+C:\Users\marys\source\repos\CIS605AS6\obj\Debug\MClarkAS6.csproj.CoreCompileInputs.cache
+C:\Users\marys\source\repos\CIS605AS6\obj\Debug\MClarkAS6.exe
+C:\Users\marys\source\repos\CIS605AS6\obj\Debug\MClarkAS6.pdb
+C:\Users\marys\source\repos\CIS605AS6\obj\Debug\MClarkAS6.csprojAssemblyReference.cache

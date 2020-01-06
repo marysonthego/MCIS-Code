@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<!--
+ Actor Search Form
+
+  Filename: index.html
+
+  CIS665 phpHOE4
+
+  Link: http://cisweb.biz.colostate.edu/cis665/sp19clark.mclark59/phpHOE4/index.html
+
+   Author: Mary Clark
+
+   Date: 03/5/2019
+
+-->
+  <meta charset="UTF-8" />
+  <title>Actor Search - Mary Clark</title>
+  <link href="phpHOE4Structure.css" rel="stylesheet" />
+  <link href="phpHOE4.css" rel="stylesheet" />
+</head>
+
+<body>
+  <?php
+    require_once "dbConnExec.php";
+    require_once "siteFunctions.php";
+  <header>
+        <h1>Actor Search</h1>         
+  </header>
+  <section>
+    <form id="actorSearch" name="actorSearch" action="siteFunctions.php" method="post">
+      <fieldset id="actorName">
+            <legend>Select your Search</legend>
+            <div>
+                <label for="lastName">Search by Last Name</label>
+                <input name="lastName" id="lastName" type="text" placeholder="enter all or part"/>
+            </div>
+          <fieldset id="actorGender">
+            <legend>Male or Female?</legend>
+                <label for="male">Male</label>
+                <input name="actorGender" id="male" value="M" type="radio"/>
+                <label for="female">Female</label>
+                <input name="actorGender" id="female" value="F" type="radio" checked/>
+          </fieldset>
+          <fieldset id="actorAge">
+               <legend>Who is oldest?</legend>
+               <label for="age">List by Age</label>
+               <input name="actorAge" id="age" value="yes" type="checkbox"/>
+          </fieldset>
+      </fieldset>
+ </form>
+</section>
+   <input value="Search!" type="submit" /> 
+<fieldset id="results">
+ <legend>Search Results</legend>
+</fieldset> 
+
+<div> 
+ <h2>Actor     Age     Gender</h2>
+  foreach ($actorList as $actor)
+  {
+    <ul>
+     <li>$actor['nameFirst'] . ' ' . ['nameLast'] . ['age'] . ['gender'] . '<br />'</li>    
+    </ul>
+  }
+</div>
+
+<footer>
+     CIS 665 &bull;
+     phpHOE4 &bull;
+     March 5, 2019 &bull;
+     Mary Clark 
+</footer>
+?>
+</body>
+
+</html>

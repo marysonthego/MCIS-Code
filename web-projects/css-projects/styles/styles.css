@@ -1,0 +1,83 @@
+/* Element Selector */
+h1 {
+    color: red;
+  }
+/* All paragraphs and all list item elements */
+p, li {
+    color: green;
+}
+/* Class Selector */
+.special {
+    color: orangered;
+    font-weight: bold;
+}
+/* All li's with class special */
+li.special {
+    color: orange;
+    font-weight: bold;
+  }
+/* li.special means you can no longer apply 
+the class to a <span> or another element by 
+simply adding the class to it; you will have to 
+add that element to the list of selectors: */
+li.special,
+span.special {
+  color: orange;
+  font-weight: bold;
+}
+/* To select only an <em> that is nested inside an <li> element 
+use a selector called the descendant combinator, which 
+simply takes the form of a space between two other selectors. 
+This selector will select any <em> element that is inside 
+(a descendant of) an <li>.*/
+li em {
+    color: rebeccapurple;
+}
+/* Style a paragraph when it comes directly after a 
+heading at the same hierarchy level in the HTML. 
+To do so place a +  (an adjacent sibling combinator) 
+between the selectors. */
+h1 + p {
+    font-size: 200%
+}
+/* Target the <a> (anchor) element to style a link. 
+This has different states depending on whether it is 
+unvisited, visited, being hovered over, focused via 
+the keyboard, or in the process of being clicked 
+(activated). You can use CSS to target these different 
+states — the CSS below styles unvisited links pink and 
+visited links green. */
+a:link {
+    color: pink;
+  }
+  
+  a:visited {
+    color: green;
+  }
+/* Remove the underline when the link is hovered over. */
+a:hover {
+    text-decoration: none;
+  }
+/* style any element with a class of special, which is 
+inside a <p>, which comes just after an <h1>, which is 
+inside a <body>. */
+  body h1 + p .special {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
+  }
+/* to control which rule will win in the event of a collision there are 
+cascade and specificity rules. In the below code block we have defined 
+two rules for the p selector, but the paragraph ends up being colored 
+blue. This is because the declaration that sets it to blue appears later 
+in the stylesheet, and later styles override earlier ones. 
+This is the cascade rule in action. */
+p {
+    color: red;
+  }
+  
+  p {
+    color: blue;
+  }
+/*  A class is described as being more specific, or having more specificity 
+than the element selector, so it wins. */

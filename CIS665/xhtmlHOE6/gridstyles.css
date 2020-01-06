@@ -1,0 +1,38 @@
+@charset "utf-8";
+/*
+
+*/
+/* 
+    Created on : Feb 13, 2019, 5:32:42 PM
+    Author     : mary clark
+*/
+/*  style rules to ensure that rows always start on a new line 
+    once the margins are clear of previously floated columns. */
+div.row {
+    clear: both;
+}
+
+/*  style rule to ensure that the grid row expands to cover all
+    of its floating columns */
+div.row::after {
+    clear: both;
+    content: “”;     
+    display: table;
+}
+
+/*  To float all grid columns use the following attribute selector, 
+    which matches all div elements whose class attribute begins 
+    with the text string “col-” */
+div[class^=”col-”] {
+float: left;
+}
+
+/*  set column width to a percentage of its row */
+div.col-100 {width: 100%;}
+div.col-60 {width: 60%;}
+div.col-40 {width: 40%;}
+
+/* Grid Outline Styles */
+div {
+outline: 1px solid red;
+}

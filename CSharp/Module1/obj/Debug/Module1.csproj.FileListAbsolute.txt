@@ -1,0 +1,22 @@
+U:\CIS605\SamplePrograms\Module1\bin\Debug\Module1.exe.config
+U:\CIS605\SamplePrograms\Module1\bin\Debug\Module1.exe
+U:\CIS605\SamplePrograms\Module1\bin\Debug\Module1.pdb
+U:\CIS605\SamplePrograms\Module1\obj\Debug\Module1.csprojAssemblyReference.cache
+U:\CIS605\SamplePrograms\Module1\obj\Debug\Module1.Module1Ex1.resources
+U:\CIS605\SamplePrograms\Module1\obj\Debug\Module1.Properties.Resources.resources
+U:\CIS605\SamplePrograms\Module1\obj\Debug\Module1.csproj.GenerateResource.cache
+U:\CIS605\SamplePrograms\Module1\obj\Debug\Module1.csproj.CoreCompileInputs.cache
+U:\CIS605\SamplePrograms\Module1\obj\Debug\Module1.exe
+U:\CIS605\SamplePrograms\Module1\obj\Debug\Module1.pdb
+U:\CIS605\SamplePrograms\Module1\obj\Debug\Module1.Module1Ex2.resources
+C:\Users\marys\OneDrive\Documents\MCIS\CIS605_BUS_VISUAL_APP_DEV\Module1-sample programs\Module1\bin\Debug\Module1.exe.config
+C:\Users\marys\OneDrive\Documents\MCIS\CIS605_BUS_VISUAL_APP_DEV\Module1-sample programs\Module1\bin\Debug\Module1.exe
+C:\Users\marys\OneDrive\Documents\MCIS\CIS605_BUS_VISUAL_APP_DEV\Module1-sample programs\Module1\bin\Debug\Module1.pdb
+C:\Users\marys\OneDrive\Documents\MCIS\CIS605_BUS_VISUAL_APP_DEV\Module1-sample programs\Module1\obj\Debug\Module1.csprojAssemblyReference.cache
+C:\Users\marys\OneDrive\Documents\MCIS\CIS605_BUS_VISUAL_APP_DEV\Module1-sample programs\Module1\obj\Debug\Module1.Module1Ex1.resources
+C:\Users\marys\OneDrive\Documents\MCIS\CIS605_BUS_VISUAL_APP_DEV\Module1-sample programs\Module1\obj\Debug\Module1.Module1Ex2.resources
+C:\Users\marys\OneDrive\Documents\MCIS\CIS605_BUS_VISUAL_APP_DEV\Module1-sample programs\Module1\obj\Debug\Module1.Properties.Resources.resources
+C:\Users\marys\OneDrive\Documents\MCIS\CIS605_BUS_VISUAL_APP_DEV\Module1-sample programs\Module1\obj\Debug\Module1.csproj.GenerateResource.cache
+C:\Users\marys\OneDrive\Documents\MCIS\CIS605_BUS_VISUAL_APP_DEV\Module1-sample programs\Module1\obj\Debug\Module1.csproj.CoreCompileInputs.cache
+C:\Users\marys\OneDrive\Documents\MCIS\CIS605_BUS_VISUAL_APP_DEV\Module1-sample programs\Module1\obj\Debug\Module1.exe
+C:\Users\marys\OneDrive\Documents\MCIS\CIS605_BUS_VISUAL_APP_DEV\Module1-sample programs\Module1\obj\Debug\Module1.pdb

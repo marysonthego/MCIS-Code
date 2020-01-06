@@ -1,0 +1,10 @@
+C:\Users\marys\source\repos\mClarkAssignment1\mClarkAssignment1\obj\Debug\mClarkAssignment1.frmMovie.resources
+C:\Users\marys\source\repos\mClarkAssignment1\mClarkAssignment1\obj\Debug\mClarkAssignment1.Properties.Resources.resources
+C:\Users\marys\source\repos\mClarkAssignment1\mClarkAssignment1\obj\Debug\mClarkAssignment1.csproj.GenerateResource.cache
+C:\Users\marys\source\repos\mClarkAssignment1\mClarkAssignment1\obj\Debug\mClarkAssignment1.csproj.CoreCompileInputs.cache
+C:\Users\marys\source\repos\mClarkAssignment1\mClarkAssignment1\bin\Debug\mClarkAssignment1.exe.config
+C:\Users\marys\source\repos\mClarkAssignment1\mClarkAssignment1\bin\Debug\mClarkAssignment1.exe
+C:\Users\marys\source\repos\mClarkAssignment1\mClarkAssignment1\bin\Debug\mClarkAssignment1.pdb
+C:\Users\marys\source\repos\mClarkAssignment1\mClarkAssignment1\obj\Debug\mClarkAssignment1.csprojAssemblyReference.cache
+C:\Users\marys\source\repos\mClarkAssignment1\mClarkAssignment1\obj\Debug\mClarkAssignment1.exe
+C:\Users\marys\source\repos\mClarkAssignment1\mClarkAssignment1\obj\Debug\mClarkAssignment1.pdb

@@ -1,0 +1,9 @@
+C:\Users\marys\source\repos\ValidatingForm\ValidatingForm\bin\Debug\ValidatingForm.exe.config
+C:\Users\marys\source\repos\ValidatingForm\ValidatingForm\bin\Debug\ValidatingForm.exe
+C:\Users\marys\source\repos\ValidatingForm\ValidatingForm\bin\Debug\ValidatingForm.pdb
+C:\Users\marys\source\repos\ValidatingForm\ValidatingForm\obj\Debug\ValidatingForm.csprojAssemblyReference.cache
+C:\Users\marys\source\repos\ValidatingForm\ValidatingForm\obj\Debug\ValidatingForm.Properties.Resources.resources
+C:\Users\marys\source\repos\ValidatingForm\ValidatingForm\obj\Debug\ValidatingForm.csproj.GenerateResource.cache
+C:\Users\marys\source\repos\ValidatingForm\ValidatingForm\obj\Debug\ValidatingForm.csproj.CoreCompileInputs.cache
+C:\Users\marys\source\repos\ValidatingForm\ValidatingForm\obj\Debug\ValidatingForm.exe
+C:\Users\marys\source\repos\ValidatingForm\ValidatingForm\obj\Debug\ValidatingForm.pdb

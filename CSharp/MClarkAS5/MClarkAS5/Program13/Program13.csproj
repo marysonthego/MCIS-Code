@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AC925BDE-A2AA-49F7-BB6D-9A1BD3E79540}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Program13</RootNamespace>
+    <AssemblyName>Program13</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NFLWinnersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NFLWinnersForm.Designer.cs">
+      <DependentUpon>NFLWinnersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="NFLWinnersForm.resx">
+      <DependentUpon>NFLWinnersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ClassDiagramP13.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\super-bowl-play.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49ers.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bears.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bengals.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bills.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Broncos.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Browns.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buccaneers.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cardinals.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chargers.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chiefs.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Colts.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cowboys.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dolphins.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eagles.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Falcons.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Giants.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jaguars.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jets.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lions.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NFLlogo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Packers.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Panthers.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Patriots.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Raiders.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rams.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ravens.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Redskins.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Saints.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Seahawks.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Steelers.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Texans.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Titans.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vikings.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

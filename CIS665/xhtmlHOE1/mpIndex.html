@@ -1,0 +1,91 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <!--CIS665 HOE1
+        First HTML5 Exercise
+        File: mpIndex.html
+        Link: http://cisweb.biz.colostate.edu/cis665/sp19clark.mclark59/htmlHOE1/mpIndex.html
+        Author: Mary Clark
+        Date: 01/26/2019-->
+
+    <!--Use the meta element to set the character encoding of the file to utf-8.-->
+    <meta charset=”utf-8” />
+
+    <!--Add the following search keywords to the document: Italian, Mobile, Food, and Charlotte.-->
+    <meta name=”keywords”
+          content=”Italian, Mobile, Food, Charlotte” />
+
+    <!--Set the title of the document to Mobile Panini.-->
+    <title>Mobile Panini</title>
+
+    <!--Link the document to the mpLayout.css style sheet file.-->
+    <link href="mpLayout.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <!--In the document body, within the header element, add the following:
+        An inline image containing the mpLogo.png file with the alternate text set to Mobile
+        Panini. Enclose the image within a hypertext link element, and set the link to
+        mpIndex.html file.-->
+        <a href="mpIndex.html"><img src="mpLogo.png" alt=”Mobile Panini” /></a>
+
+        <!--In the document body, within the header element, add the following:
+            A navigation list (i.e., nest the list within a nav element) containing an unordered list with
+            the following list items: Home, Menu, Events, and Catering. Link the items to
+            mpIndex.html, mpMenu.html, mpEvents.html, and mpCatering.html files respectively.-->
+        <nav>
+            <ul>
+                <li><a href="mpIndex.html">Home</a></li>
+                <li><a href="mpMenu.html">Menu</a></li>
+                <li><a href="mpEvents.html">Events</a></li>
+                <li><a href="mpCatering.html">Catering</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <!--Within the article element, do the following:
+         i. Mark the “Welcome” line as an h1 heading.
+         ii. Below the h1 element, insert an inline image containing the mpPhoto1.png file with an
+             empty text string for the alternate text.
+         iii. Mark the next five paragraphs as paragraphs using the p element. Within the first
+             paragraph, mark the text “Mobile Panini” as strong text. Within the third paragraph mark
+             the text “Curbside Thai” as emphasized text.
+         iv. The fourth paragraph contains Mobile Panini’s phone number. Mark the phone number
+             as a telephone link and be sure to include the international code (1).
+             v. The fifth paragraph contains Mobile Panini’s email address. Mark the email address as
+             an email link.-->
+        <h1>Welcome</h1>
+        <img src="mpPhoto1.png" alt=" " />
+
+        <p>
+            <strong>Mobile Panini</strong> is the culmination of the dream of Antonio and Carmen
+            Dolcini, who came to America looking to serve people the
+            authentic recipes learned from their Sicilian family.</p>
+        <p>
+            Antonio began work as a child in his grandmother's deli where he
+            learned the age-old secrets of Sicilian cooking. He refined his
+            technique at the Culinary Institute of Milan. His younger brother,
+            Carmen, with no less of a love for cooking and good food, also
+            worked in the deli and became well-acquainted with the open-air
+            fresh food markets of his home town. Carmen too, is a proud graduate of the
+            Culinary Institute of Milan.</p>
+        <p>
+            Now you can enjoy what they have learned and mastered, right outside
+            your door; but with no compromises in freshness or delicacy of
+            preparation. We've partnered with <em>Curbside Thai</em> to bring you the
+            finest cuisine on four wheels - from the East and the West!</p>
+        
+        <p>Phone: <a href="tel:+17045552188">(704) 555-2188</a></p>
+        
+        <p>E-mail: <a href="mailto:mobilepanini@example.com">mobilepanini@example.com</a></p>
+
+    </article>
+    <footer>
+        <!--In the footer element text, insert the special characters (character code 9832) as shown in
+            mpIndexDone.png. Add an extra space between NC and 28204 using the nbsp character name.-->
+        Mobile Panini &#9832; 31 West Avenue, Charlotte NC &nbsp; 28204 &#9832; 704-555-2188
+    </footer>
+</body>
+</html>

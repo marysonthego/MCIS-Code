@@ -1,0 +1,11 @@
+U:\CIS605\SamplePrograms\Module8\bin\Debug\Module8.exe.config
+U:\CIS605\SamplePrograms\Module8\bin\Debug\Module8.exe
+U:\CIS605\SamplePrograms\Module8\bin\Debug\Module8.pdb
+U:\CIS605\SamplePrograms\Module8\obj\Debug\Module8.csprojAssemblyReference.cache
+U:\CIS605\SamplePrograms\Module8\obj\Debug\Module8.Module8Ex1.resources
+U:\CIS605\SamplePrograms\Module8\obj\Debug\Module8.Properties.Resources.resources
+U:\CIS605\SamplePrograms\Module8\obj\Debug\Module8.csproj.GenerateResource.cache
+U:\CIS605\SamplePrograms\Module8\obj\Debug\Module8.csproj.CoreCompileInputs.cache
+U:\CIS605\SamplePrograms\Module8\obj\Debug\Module8.exe
+U:\CIS605\SamplePrograms\Module8\obj\Debug\Module8.pdb
+U:\CIS605\SamplePrograms\Module8\obj\Debug\Module8.Module8Ex2.resources

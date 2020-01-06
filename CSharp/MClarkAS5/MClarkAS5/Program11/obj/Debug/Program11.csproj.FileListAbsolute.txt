@@ -1,0 +1,20 @@
+C:\Users\marys\source\repos\MClarkAS5\Program11\bin\Debug\Program11.exe.config
+C:\Users\marys\source\repos\MClarkAS5\Program11\bin\Debug\Program11.exe
+C:\Users\marys\source\repos\MClarkAS5\Program11\bin\Debug\Program11.pdb
+C:\Users\marys\source\repos\MClarkAS5\Program11\obj\Debug\Program11.Properties.Resources.resources
+C:\Users\marys\source\repos\MClarkAS5\Program11\obj\Debug\Program11.WaterTankForm.resources
+C:\Users\marys\source\repos\MClarkAS5\Program11\obj\Debug\Program11.csproj.GenerateResource.cache
+C:\Users\marys\source\repos\MClarkAS5\Program11\obj\Debug\Program11.csproj.CoreCompileInputs.cache
+C:\Users\marys\source\repos\MClarkAS5\Program11\obj\Debug\Program11.exe
+C:\Users\marys\source\repos\MClarkAS5\Program11\obj\Debug\Program11.pdb
+C:\Users\marys\source\repos\MClarkAS5\Program11\obj\Debug\Program11.csprojAssemblyReference.cache
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program11\bin\Debug\Program11.exe.config
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program11\bin\Debug\Program11.exe
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program11\bin\Debug\Program11.pdb
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program11\obj\Debug\Program11.csprojAssemblyReference.cache
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program11\obj\Debug\Program11.Properties.Resources.resources
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program11\obj\Debug\Program11.WaterTankForm.resources
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program11\obj\Debug\Program11.csproj.GenerateResource.cache
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program11\obj\Debug\Program11.csproj.CoreCompileInputs.cache
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program11\obj\Debug\Program11.exe
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program11\obj\Debug\Program11.pdb

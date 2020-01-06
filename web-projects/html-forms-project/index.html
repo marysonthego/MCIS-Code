@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Forms</title>
+    <link href="styles/form-styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <p>A form is a container element like a &lt;section&gt; or &lt;footer&gt; element, but specifically for containing forms; it also supports some specific attributes to configure the way the form behaves. All of its attributes are optional, but it's standard practice to always set at least the <em>action</em> and <em>method</em> attributes:
+    <ul>
+        <li>The <em>action</em> attribute defines the location (URL) where the form's collected data should be sent when it is submitted.</li>
+        <br>
+        <li>The <em>method</em> attribute defines which HTTP <em>method</em> to send the data with (usually <em>get</em> or <em>post</em>).</li>
+    </ul>
+    </p>
+
+    <form action="/my-handling-form-page" method="post">
+        <p>See <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form" target="_blank" rel="noreferrer noopener">Form</a> (When using target, add rel="noreferrer noopener" to avoid exploitation of the window.opener API)</p>
+    
+        <ul>
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="user_name">
+            </li>
+            <li>
+              <label for="mail">E-mail:</label>
+              <input type="email" id="mail" name="user_mail">
+            </li>
+            <li>
+              <label for="msg">Message:</label>
+              <textarea id="msg" name="user_message">By default this element is filled with this text.</textarea>
+            </li>
+         <hr>
+           <p>The <em>for</em> attribute takes as its value the id of the form control with which it is associated. There is great benefit to doing this: it associates the label with the form control enabling mouse, trackpad and touch device users to click on the label to activate the corresponding widget, and provides an accessible name for screen readers. </p>
+
+           <p>Note the syntax of &lt;input&gt; vs. &lt;textarea&gt&lt;/textarea&gt;. This is one of the oddities of HTML. The &lt;input&gt; tag is an empty element, meaning that it doesn't need a closing tag. </p>
+
+           <p>&lt;textarea&gt; is not an empty element, meaning it should be closed with the proper ending tag. This has an impact on a specific feature of HTML forms: the way you define the default value. To define the default value of an &lt;input&gt; element you have to use the <em>value</em> attribute.</p>
+
+           <li class="button">
+                <button type="submit">Send your message</button>
+            </li>
+            
+          <p> The &lt;button&gt; element also accepts a type attribute — this accepts one of three values: submit (default), reset, or button. Button does nothing.</p>
+        </ul>
+    </form>
+
+    <p> the form will send 3 pieces of data named "user_name", "user_email", and "user_message". 
+        That data will be sent to the URL "/my-handling-form-page" using the HTTP POST method.<br><br>
+
+        On the server side, the script at the URL "/my-handling-form-page" will receive the data as a list of 3 key/value items embodied in the HTTP request. The way this script will handle that data is up to you. Each server-side language (PHP, Python, Ruby, Java, C#, etc.) has its own mechanism.<br>
+        See examples in the <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Sending_and_retrieving_form_data">Sending form data article.</a><br><br>
+        It's strictly forbidden to nest a form inside another form. Nesting can cause forms to behave in an unpredictable manner based on the browser that is being used.<br><br>
+        You can use a form widget outside of a &lt;form&gt; element. If you do so, by default that form widget has nothing to do with any form. You can associate it with a form with the form attribute. HTML5 introduced the form attribute on HTML form elements letting you explicitly bind an element with a form even if it is not enclosed within a &lt;form&gt; container.<br><br>
+    </p>
+    <h2>The &lt;fieldset&gt; and &lt;legend&gt; elements</h2>
+        <p>The &lt;fieldset&gt; element is a convenient way to create groups of widgets that share the same       purpose for styling and semantics. You can label a &lt;fieldset&gt; by including a &lt;legend&gt; element just below the opening &lt;fieldset&gt; tag. The text content of the &lt;legend&gt; formally describes the purpose of the &lt;fieldset&gt;.<br><br>
+
+        Many assistive technologies use the &lt;legend&gt; element as if it is a part of the label of each widget inside the corresponding &lt;fieldset&gt; element. For example, some screen readers such as Jaws or NVDA will speak the legend's content before speaking the label of each widget.
+        </p>
+        <h3>&lt;fieldset&gt; element</h3>
+        <form>
+            <fieldset>
+              <legend>Fruit juice size</legend>
+              <p>
+                <input type="radio" name="size" id="size_1" value="small">
+                <label for="size_1">Small</label>
+              </p>
+              <p>
+                <input type="radio" name="size" id="size_2" value="medium">
+                <label for="size_2">Medium</label>
+              </p>
+              <p>
+                <input type="radio" name="size" id="size_3" value="large">
+                <label for="size_3">Large</label>
+              </p>
+              <p>Each time you have a set of radio buttons, you should nest them inside a &lt;fieldset&gt; element. There are other use cases. The &lt;fieldset&gt; element can also be used to section a form. Ideally long forms should be spread across multiple pages, but if a form is getting long and must be on a single page, putting the different related sections inside different fieldsets improves usability.</p>
+            </fieldset>
+          </form>
+          <h2>&lt;label&gt; element</h2>
+          <p>This is the most important element if you want to build accessible forms — when implemented properly, screenreaders will speak a form element's label along with any related instructions. </p>
+
+          <p>When the &lt;label&gt; is associated correctly with the &lt;input&gt; via their <em>for</em> and <em>id</em> attributes respectively, a screenreader will read out something like "Name, edit text".  To explicity associate a label with a form control, the label for attribute references the id attribute of the corresponding widget. The other way to associate a form control and label is to nest the form control within the &lt;label&gt;, implicitly associating it.</p>
+          <p>
+          &lt;label for="name"&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;Name: &lt;input type="text" id="name" name="user_name"&gt;<br>
+          &lt;/label&gt;<br> 
+          </p>
+  </body>
+</html>

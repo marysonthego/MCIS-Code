@@ -1,0 +1,3 @@
+C:\Users\marys\source\CSharp\ExampleFormEventHandlers\ExampleFormEventHandlers\obj\Debug\ExampleFormEventHandlers.Properties.Resources.resources
+C:\Users\marys\source\CSharp\ExampleFormEventHandlers\ExampleFormEventHandlers\obj\Debug\ExampleFormEventHandlers.csproj.GenerateResource.cache
+C:\Users\marys\source\CSharp\ExampleFormEventHandlers\ExampleFormEventHandlers\obj\Debug\ExampleFormEventHandlers.csproj.CoreCompileInputs.cache

@@ -1,0 +1,25 @@
+.main {
+    color: red;
+    border: 2px solid #ccc;
+    padding: 1em;
+}
+
+.special {
+    color: black;
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
+}
+    
+/* The CSS shorthand property all can be used to 
+apply one of these inheritance values to (almost) 
+all properties at once. Its value can be any one 
+of the inheritance values (inherit, initial, unset, or revert). 
+It's a convenient way to undo changes made to styles 
+so that you can get back to a known starting point 
+before beginning new changes. */
+.fix-me {
+    all: initial;
+}

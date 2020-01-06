@@ -1,0 +1,10 @@
+C:\Users\marys\source\repos\mClarkAssignment1Cylinder\mClarkAssignment1Cylinder\bin\Release\mClarkAssignment1Cylinder.exe.config
+C:\Users\marys\source\repos\mClarkAssignment1Cylinder\mClarkAssignment1Cylinder\bin\Release\mClarkAssignment1Cylinder.exe
+C:\Users\marys\source\repos\mClarkAssignment1Cylinder\mClarkAssignment1Cylinder\bin\Release\mClarkAssignment1Cylinder.pdb
+C:\Users\marys\source\repos\mClarkAssignment1Cylinder\mClarkAssignment1Cylinder\obj\Release\mClarkAssignment1Cylinder.csprojAssemblyReference.cache
+C:\Users\marys\source\repos\mClarkAssignment1Cylinder\mClarkAssignment1Cylinder\obj\Release\mClarkAssignment1Cylinder.CylinderForm.resources
+C:\Users\marys\source\repos\mClarkAssignment1Cylinder\mClarkAssignment1Cylinder\obj\Release\mClarkAssignment1Cylinder.Properties.Resources.resources
+C:\Users\marys\source\repos\mClarkAssignment1Cylinder\mClarkAssignment1Cylinder\obj\Release\mClarkAssignment1Cylinder.csproj.GenerateResource.cache
+C:\Users\marys\source\repos\mClarkAssignment1Cylinder\mClarkAssignment1Cylinder\obj\Release\mClarkAssignment1Cylinder.csproj.CoreCompileInputs.cache
+C:\Users\marys\source\repos\mClarkAssignment1Cylinder\mClarkAssignment1Cylinder\obj\Release\mClarkAssignment1Cylinder.exe
+C:\Users\marys\source\repos\mClarkAssignment1Cylinder\mClarkAssignment1Cylinder\obj\Release\mClarkAssignment1Cylinder.pdb

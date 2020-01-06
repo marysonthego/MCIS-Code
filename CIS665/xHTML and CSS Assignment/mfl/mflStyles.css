@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+/*
+    CIS665 HTML and CSS Assignment
+
+    MFL "Marked for Later" aka "My Favorite Links"
+
+    Filename: mflStyles.css
+
+    Link: http://cisweb.biz.colostate.edu/cis665/sp19clark.mclark59/MFL/mflIndex.html
+
+    Author: Mary Clark
+
+    Date: 02/09/2019
+
+*/
+
+/* Window and Body Styles */
+html {
+   background:cadetblue;
+   background-image: url("background1.jpg");
+}
+
+body {
+   background:linear-gradient(cadetblue,silver,cadetblue);
+   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+   font-size:0.9em;
+   font-weight: normal;
+   color:darkslategrey;
+}
+
+/* Table Styles */
+
+table {
+    font-size: 0.9em;
+    font-weight: normal;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    color:darkslategrey;
+    border: 5px outset silver;
+    border-spacing: 0px;
+    width: 70%;
+}
+
+tr:hover {background-color: cadetblue;}
+
+table th, td {
+    border: none;
+    padding: 5px;
+    vertical-align: top;
+    font-weight: normal;
+}
+
+table thead tr {
+    height: 30px;
+    text-align: center; 
+    background-color: cadetblue;
+}
+
+table a:link, table a:visited {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+table a:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+/* Navigation List Styles */
+
+nav ul {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+  font-size: 0.9em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: cadetblue;
+}
+
+nav ul li {
+   float: left;
+   border-style: none;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+
+nav ul li a:link {
+    color: whitesmoke;
+}
+
+nav ul li a:visited {
+    color: whitesmoke;
+}
+
+nav ul li a:hover {
+    background-color: #436e70;
+}
+
+nav ul li a:active {
+    background-color: darkgrey;
+}
+
+/* Article Styles */
+
+article {
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    color:darkslategrey;
+    font-family: Futura, Geneva, Arial, sans-serif; 
+}
+
+/* Footer Styles */
+
+footer {
+   color:black;
+   font-size: 0.8em;
+   padding: 10px 0px;
+   text-align: center;
+   width: 100%;
+   left: 0;
+   bottom: 0;
+}

@@ -1,0 +1,145 @@
+﻿@charset "utf-8";
+
+/*
+   HTML - Hands-on-Exercise 5
+
+   Tables Style Sheet
+   
+   Filename: dlrTables2.css
+   
+   CIS665 HOE5
+
+   Link: http://cisweb.biz.colostate.edu/cis665/sp19clark.mclark59/htmlHOE5/dlrMornings.html
+
+   Author: Mary Clark
+
+   Date: 02/11/2019
+
+*/
+
+/* Table Styles */
+
+table.programs {
+    /*  Create a style rule for the programs table that 
+        i) sets the width of the table to 100%, 
+        ii) adds a 15-pixel outset border with a color value of rgb(151, 151, 151), and 
+        iii) defines the borders so that they are collapsed around the table
+
+    */
+    width: 100%;
+    border: 15px outset rgb(151, 151, 151);
+    border-collapse:collapse;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+
+tr {
+    /*  Create a style rule that sets the height of every table row to 25 pixels. 
+
+    */
+    height: 25px;
+}
+
+th, td {
+    /*  Create a style rule for every th and td element that 
+        i) adds a 1-pixel solid gray border, 
+        ii) aligns the cell content with the top of the cell, and 
+        iii) sets the padding space to 5 pixels.
+
+    */
+    border: 1px solid gray;
+    vertical-align: top;
+    padding: 5px;
+}
+
+/* Table Caption Styles */
+
+caption {
+    /*  Create a style rule that places the caption element at the bottom of the table 
+        and centered horizontally
+
+    */
+    caption-side: bottom;
+    text-align: center;
+}
+
+/* Table Column Styles */
+
+col.timeColumn {
+    /*  For col elements belonging to the timeColumn class, 
+        create a style rule that sets the width to 10% 
+        and the background-color to the value rgb(215, 205, 151).
+
+    */
+    width: 10%;
+    background-color: rgb(215, 205, 151);
+}
+
+col.wDayColumns {
+    /*  For col elements belonging to the wDayColumns class, 
+        create a style rule that sets the width to 11% and the 
+        background-color to the value rgb(236, 255, 211).
+
+    */
+    width: 11%;
+    background-color: rgb(236, 255, 211);
+}
+
+col.wEndColumns {
+    /*  For col elements belonging to the wEndColumns class, 
+        create a style rule that sets the width to 17% and the 
+        background-color to the value rgb(255, 231, 255).
+
+    */
+    width: 17%;
+    background-color: rgb(255, 231, 255);
+}
+
+/* Table Header styles */
+
+thead {
+    /*  Create a style rule to set to set the font color of the text 
+        within the thead element to white and the background 
+        color to rgb(105,177,60)
+
+    */
+    color: white;
+    background-color: rgb(105,177,60);
+}
+
+    thead th:first-of-type {
+        /*  Create a style rule that changes the background color of 
+            the first th element within the thead element to rgb(153, 86, 7)
+
+        */
+        background-color: rgb(153, 86, 7);
+    }
+
+    thead th:nth-of-type(7), thead th:nth-of-type(8) {
+        /*  Create a style rule that changes the background color of 
+            the 7th and 8th th elements within the thead element 
+            to rgb(153, 0, 153)
+
+        */
+        background-color: rgb(153, 0, 153);
+    }
+
+
+/* Table Footer Styles */
+
+tfoot {
+    /*  Create a style rule for the tfoot element that sets the font color to white 
+        and the background color to black.
+
+    */
+    color: white;
+    background-color: black;
+}
+
+
+
+
+
+
+
+

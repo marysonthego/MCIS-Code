@@ -1,0 +1,196 @@
+﻿@charset "utf-8";
+
+/*
+   HTML - Hands-on-Exercise 3
+   
+   Layout styles for Slate and Pencil Tutoring
+   
+   Filename: spLayout.css
+
+   CIS665 HOE3
+   HTML5 Hands-On Exercise 3
+   File: spLayout.css
+   Link: http://cisweb.biz.colostate.edu/cis665/sp19clark.mclark59/htmlHOE3/spHome.html
+   Author: Mary Clark
+   Date: 02/05/2019
+
+*/
+
+/* Window and Body Styles */
+
+html
+{
+    /*  3a. i. Create a style rule for the html element that sets the height of the browser window at 100%, */
+    height: 100%;
+}
+
+body {
+    /* 3a. ii. Create a style rule for the body element that sets the width to 95% of the browser window... */
+    width: 95%;
+
+    /* ...with a minimum-width of 640 pixels and a maximum-width of 960 pixels. */
+    min-width: 640px;
+    max-width: 960px;
+
+    /* Horizontally center the page body within the browser window. */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* To ensure that the height of the page body is at least as high as the browser window itself, 
+       set the minimum height of the body to 100%, */ 
+    min-height: 100%;
+}
+
+/* Block Element Styles */
+
+    /* 3a. iii. Create a style rule to apply the Border Box model to all headers, ul, nav, li and a elements
+       in the document. */
+header, ul, nav, li, a {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Row Styles */
+
+.row::after 
+{
+   clear: both;	
+   content: "";
+   display: table;
+}
+
+/* Page Header Styles */
+
+/*  3b. In the Page Header Styles section... */
+ 
+/*  3b. i. Create a style rule for the logo image within the body header that displays the image as a
+        block with a width of 70% of the header, floated on the left margin. */
+body > header > img {
+    display: block;
+    width: 70%;
+    float: left;
+}
+
+/*  3b. ii. Create a style rule for the nav element within the body header that 
+        a) floats the navigation list on the left, 
+        b) sets the size of the left and right padding to 2%, and 
+        c) sets the width of the navigation list to 30% of the width of the header, */
+body > header > nav {
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 30%;
+}
+
+/*  3b. iii. The hypertext links in the navigation list should be displayed as blocks. Create a style
+        rule for every element in the header navigation list that displays the element as a block
+        with a width of 100%.*/ 
+    body > header > nav a {
+        display: block;
+        width: 100%;
+    }
+
+/* Horizontal Navigation List Styles */
+
+/*  3c. In the Horizontal Navigation List Styles section, create a style rule that displays each list item as
+        a block with a width of 12.5% floated on the left margin. */
+
+    nav.horizontal li {
+        display: block;
+        float: left;
+        width: 12.5%;
+    }
+
+/* Topics Styles */
+
+/*  3d. In the Topics Styles section,
+      i. For list items within the ul element with the id topics, create a style rule to 
+         a) display the items as blocks with a width of 20%, 
+         b) float the items on the left margin, and 
+         c) set the size of the left margin space to 0% and the right margin space to 1.5%, */
+ul#topics li {
+    display: block;
+    width: 20%;
+    float: left;
+    margin-left: 0%;
+    margin-right: 1.5%;
+}
+
+/*  3d. ii. Create a style rule that sets the size of the left margin of the first item in the topics list to
+         7.75% and sets the right margin of the last item to 7.75%, */
+    ul#topics li:first-of-type {
+        margin-left: 7.75%;
+    }
+
+    ul#topics li:last-of-type {
+        margin-right: 7.75%;
+    }
+
+/*  3d. iii. Create a style rule that displays the image within each list item in the topics list as a block
+         with a width of 50% and centered within the list item block (Hint: set the left and right
+         margins to auto). */
+    ul#topics li img {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+/* HR Styles */
+
+/* e. In the HR Styles section, add a style rule that sets the width of the hr element to 50% */
+hr {
+    width: 50%;
+}
+
+/* Customer Comment Styles */
+
+/*  f. In the Customer Comment Styles section,
+       i. For the ul element with the id comments, create a style rule that sets the width to 75% and
+          centers the element by setting the top/bottom margins to 40 pixels and the left/right
+          margins to auto.
+      ii. Create a style rule for every list item in the comments list that 
+          a) displays the item as a block with a width of 50% floated on the left and 
+          b) sets the size of the bottom margin to 30 pixels,
+     iii. Create a style rule to display the image within each comment list item as a block with a
+          width of 20%, floated to the left, and with left/right margins of 5%,
+      iv. Create a style rule for every paragraph nested within a customer list item that floats the
+          paragraph on the left margin with a width of 70%. */
+
+ul#comments { /* See instruction f. i. */
+    width: 75%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    ul#comments li { /* See instruction f. ii. */
+        display: block;
+        width: 50%;
+        float: left;
+        margin-bottom: 30px;
+    }
+
+        ul#comments li img { /* See instruction f. iii. */
+            display: block;
+            width: 20%;
+            float: left;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+
+        ul#comments li p { /* See instruction f. iv. */
+            float: left;
+            width: 70%;
+        }
+
+/* Footer Styles */
+
+/*  g. In the Footer Styles section, create a style rule that displays the footer only when both margin are
+       clear of floating objects */
+footer
+{
+   clear: both;
+}

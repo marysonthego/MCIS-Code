@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--CIS665 HOE1
+    First HTML5 Exercise
+    File: mpMenu.html
+    Site Link: http://cisweb.biz.colostate.edu/cis665/sp19clark.mclark59/htmlHOE1/mpIndex.html
+    Author: Mary Clark
+    Date: 01/26/2019-->
+    <!--Use the meta element to set the character encoding of the file to utf-8.-->
+    <meta charset=”utf-8” />
+
+    <!--Set the title of the document to Mobile Panini Menu.-->
+    <title>Mobile Panini Menu</title>
+
+    <!--Link the document to the mpLayout.css style sheet file.-->
+    <link href="mpLayout.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--Copy and paste the header and footer elements from mpIndex.html.-->
+    <header>
+        <!--In the document body, within the header element, add the following:
+        An inline image containing the mpLogo.png file with the alternate text set to Mobile
+        Panini. Enclose the image within a hypertext link element, and set the link to
+        mpIndex.html file.-->
+        <a href="mpIndex.html"><img src="mpLogo.png" alt=”Mobile Panini” /></a>
+
+        <!--In the document body, within the header element, add the following:
+            A navigation list (i.e., nest the list within a nav element) containing an unordered list with
+            the following list items: Home, Menu, Events, and Catering. Link the items to
+            mpIndex.html, mpMenu.html, mpEvents.html, and mpCatering.html files respectively.-->
+        <nav>
+            <ul>
+                <li><a href="mpIndex.html">Home</a></li>
+                <li><a href="mpMenu.html">Menu</a></li>
+                <li><a href="mpEvents.html">Events</a></li>
+                <li><a href="mpCatering.html">Catering</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <!--Within the article element, do the following:
+            i. Mark the “Our Menu” line as an h1 heading.
+            ii. Enclose the menu items in a description list with the name of each menu item marked
+            with the dt element and each menu description marked with the dd element.-->
+        <h1>Our Menu</h1>
+        <dl>
+            <dt>Salsiccia Panini</dt>
+            <dd>Home made Italian sausage roasted bell peppers and spicy
+                pecorino cheese on freshly-baked ciabbatta bread ($7.95)</dd>
+            <dt>Caprese Panini</dt>
+            <dd>Tomato, fresh mozzarella, basil and extra virgin olive oil
+            on freshly-baked ciabbatta bread ($7.45)</dd>
+            <dt>Prosciutto Panini</dt>
+            <dd>Prosciutto di parma, tomato, mozzarella and figs on
+            freshly-baked ciabbatta bread ($7.95)</dd>
+            <dt>Pollo Panini</dt>
+            <dd>Marinated chicken breast, portobello mushrooms, Italian herbs,
+            provolone cheese, tomato and pesto spread on freshly-baked ciabbatta bread ($8.25)</dd>
+            <dt>Grandma’s Lasagna</dt>
+            <dd>Oven-baked meat sauce, bechamel sauce, eggs, green peas,
+            mozzarella parmigiano cheese ($9.95)</dd>
+            <dt>Chicken Salad</dt>
+            <dd>Organic baby mix greens, cherry tomatoes, shaved carrots, crumbled
+            Gorgonzola cheese, topped with marinated grilled chicken breast
+            and tossed in balsamic vinaigrette ($9.95)</dd>
+            <dt>Sicilian Cannoli</dt>
+            <dd>Fresh Ricotta cheese, pistachio and chocolate chips ($2.25)</dd>
+        </dl>
+    </article>
+    <footer>
+        <!--In the footer element text, insert the special characters (character code 9832) as shown in
+            mpIndexDone.png. Add an extra space between NC and 28204 using the nbsp character name.-->
+        Mobile Panini &#9832; 31 West Avenue, Charlotte NC &nbsp; 28204 &#9832; 704-555-2188
+    </footer>
+</body>
+</html>

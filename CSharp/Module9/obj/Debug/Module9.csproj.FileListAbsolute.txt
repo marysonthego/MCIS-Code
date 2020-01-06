@@ -1,0 +1,12 @@
+U:\CIS605\SamplePrograms\Module9\bin\Debug\Module9.exe.config
+U:\CIS605\SamplePrograms\Module9\bin\Debug\Module9.exe
+U:\CIS605\SamplePrograms\Module9\bin\Debug\Module9.pdb
+U:\CIS605\SamplePrograms\Module9\obj\Debug\Module9.csprojAssemblyReference.cache
+U:\CIS605\SamplePrograms\Module9\obj\Debug\Module9.Properties.Resources.resources
+U:\CIS605\SamplePrograms\Module9\obj\Debug\Module9.csproj.GenerateResource.cache
+U:\CIS605\SamplePrograms\Module9\obj\Debug\Module9.csproj.CoreCompileInputs.cache
+U:\CIS605\SamplePrograms\Module9\obj\Debug\Module9.exe
+U:\CIS605\SamplePrograms\Module9\obj\Debug\Module9.pdb
+U:\CIS605\SamplePrograms\Module9\obj\Debug\Module9.Module9Ex1.resources
+U:\CIS605\SamplePrograms\Module9\obj\Debug\Module9.Module9Ex2Main.resources
+U:\CIS605\SamplePrograms\Module9\obj\Debug\Module9.Module9Ex2Summary.resources

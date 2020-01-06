@@ -1,0 +1,10 @@
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayTest1\bin\Debug\netcoreapp2.1\ArrayTest1.deps.json
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayTest1\bin\Debug\netcoreapp2.1\ArrayTest1.runtimeconfig.json
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayTest1\bin\Debug\netcoreapp2.1\ArrayTest1.runtimeconfig.dev.json
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayTest1\bin\Debug\netcoreapp2.1\ArrayTest1.dll
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayTest1\bin\Debug\netcoreapp2.1\ArrayTest1.pdb
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayTest1\obj\Debug\netcoreapp2.1\ArrayTest1.csproj.CoreCompileInputs.cache
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayTest1\obj\Debug\netcoreapp2.1\ArrayTest1.AssemblyInfoInputs.cache
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayTest1\obj\Debug\netcoreapp2.1\ArrayTest1.AssemblyInfo.cs
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayTest1\obj\Debug\netcoreapp2.1\ArrayTest1.dll
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayTest1\obj\Debug\netcoreapp2.1\ArrayTest1.pdb

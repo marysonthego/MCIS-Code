@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MClarkProgram9", "MClarkProgram9\MClarkProgram9.csproj", "{3B7C4C40-256E-49DC-8D87-BEA95B989519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MClarkProgram10", "MClarkProgram10\MClarkProgram10.csproj", "{41D9952C-7EE3-4C20-855F-6E7657D3D2CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B7C4C40-256E-49DC-8D87-BEA95B989519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B7C4C40-256E-49DC-8D87-BEA95B989519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B7C4C40-256E-49DC-8D87-BEA95B989519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B7C4C40-256E-49DC-8D87-BEA95B989519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D9952C-7EE3-4C20-855F-6E7657D3D2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D9952C-7EE3-4C20-855F-6E7657D3D2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D9952C-7EE3-4C20-855F-6E7657D3D2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D9952C-7EE3-4C20-855F-6E7657D3D2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B51D95A2-F752-488F-8CA0-7642AFE1BAD7}
+	EndGlobalSection
+EndGlobal

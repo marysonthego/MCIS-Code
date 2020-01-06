@@ -1,0 +1,10 @@
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayByReference\bin\Debug\netcoreapp2.1\ArrayByReference.deps.json
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayByReference\bin\Debug\netcoreapp2.1\ArrayByReference.runtimeconfig.json
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayByReference\bin\Debug\netcoreapp2.1\ArrayByReference.runtimeconfig.dev.json
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayByReference\bin\Debug\netcoreapp2.1\ArrayByReference.dll
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayByReference\bin\Debug\netcoreapp2.1\ArrayByReference.pdb
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayByReference\obj\Debug\netcoreapp2.1\ArrayByReference.csproj.CoreCompileInputs.cache
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayByReference\obj\Debug\netcoreapp2.1\ArrayByReference.AssemblyInfoInputs.cache
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayByReference\obj\Debug\netcoreapp2.1\ArrayByReference.AssemblyInfo.cs
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayByReference\obj\Debug\netcoreapp2.1\ArrayByReference.dll
+C:\Users\marys\source\CSharp\ArrayTest1\ArrayByReference\obj\Debug\netcoreapp2.1\ArrayByReference.pdb

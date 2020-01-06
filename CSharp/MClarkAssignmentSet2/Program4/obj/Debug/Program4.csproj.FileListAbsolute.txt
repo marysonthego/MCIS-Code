@@ -1,0 +1,10 @@
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program4\bin\Debug\Program4.exe.config
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program4\bin\Debug\Program4.exe
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program4\bin\Debug\Program4.pdb
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program4\obj\Debug\Program4.InvestmentForm.resources
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program4\obj\Debug\Program4.Properties.Resources.resources
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program4\obj\Debug\Program4.csproj.GenerateResource.cache
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program4\obj\Debug\Program4.csproj.CoreCompileInputs.cache
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program4\obj\Debug\Program4.exe
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program4\obj\Debug\Program4.pdb
+C:\Users\marys\source\repos\MClarkAssignmentSet2\Program4\obj\Debug\Program4.csprojAssemblyReference.cache

@@ -1,0 +1,12 @@
+U:\CIS605\SamplePrograms\Module3\bin\Debug\Module3.exe.config
+U:\CIS605\SamplePrograms\Module3\bin\Debug\Module3.exe
+U:\CIS605\SamplePrograms\Module3\bin\Debug\Module3.pdb
+U:\CIS605\SamplePrograms\Module3\obj\Debug\Module3.csprojAssemblyReference.cache
+U:\CIS605\SamplePrograms\Module3\obj\Debug\Module3.Properties.Resources.resources
+U:\CIS605\SamplePrograms\Module3\obj\Debug\Module3.csproj.GenerateResource.cache
+U:\CIS605\SamplePrograms\Module3\obj\Debug\Module3.csproj.CoreCompileInputs.cache
+U:\CIS605\SamplePrograms\Module3\obj\Debug\Module3.exe
+U:\CIS605\SamplePrograms\Module3\obj\Debug\Module3.pdb
+U:\CIS605\SamplePrograms\Module3\obj\Debug\Module3.Module3Ex1.resources
+U:\CIS605\SamplePrograms\Module3\obj\Debug\Module3.Module3Ex2.resources
+U:\CIS605\SamplePrograms\Module3\obj\Debug\Module3.Module3Ex3.resources

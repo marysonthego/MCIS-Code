@@ -1,0 +1,3 @@
+A
+GeometricObject
+Square

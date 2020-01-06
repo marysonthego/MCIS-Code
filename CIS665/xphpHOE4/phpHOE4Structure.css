@@ -1,0 +1,117 @@
+/*
+  PHP HOE4
+
+   Structure Style Sheet
+   
+   Filename: phpHOE4Structure.css
+
+   CIS665 phpHOE4
+
+   Link: http://cisweb.biz.colostate.edu/cis665/sp19clark.mclark59/phpHOE4/index.html
+
+   Author: Mary Clark
+
+   Date: 03/5/2019
+    
+*/
+
+/* Display HTML5 structural elements as blocks */
+
+article, aside, figure, figcaption, footer, hgroup, header, 
+section, nav 
+{
+   display: block;
+}
+
+/* Set the default page element styles */
+
+html {
+   background: url(OscarStage3.jpg);
+   height: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+body * 
+{
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 100%;
+   font-weight: inherit;
+   line-height: 1.2em;
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+   text-decoration: none;
+   vertical-align: baseline;
+}
+
+/* Body Styles */
+
+body 
+{
+   background-color: rgba(153,0,51,0.5);
+   border-left: 3px solid rgb(51, 51, 51);
+   border-right: 3px solid rgb(51, 51, 51);
+   width: 100%;
+   min-width: 700px;
+   max-width: 800px;
+   font-family: fantasy, sans-serif;
+   font-weight: normal;
+   font-size: 16px;
+   margin: 0px auto;
+   position: relative;
+   color: white;
+}
+
+/* Header styles */
+
+header 
+{
+   float: left;
+   width: 100%;
+   background-size: 10% 10%;
+   background-color: transparent;
+   border-bottom: 10px double firebrick;
+}
+
+header h1 
+{
+   font-size: 2.5em;
+   font-family: fantasy, sans-serif;
+   font-weight: normal;
+   color: snow;
+   letter-spacing: 7px;
+   margin-right: 20%;
+ 
+}
+
+/* Section styles */
+
+section 
+{
+   clear: left;
+}
+
+section p 
+{
+   color: whitesmoke;
+   margin-left: 20px;
+   margin-bottom: 5px;
+   padding-top: 5px;
+   width: 100%;
+}
+
+/* Footer Styles */
+
+footer 
+{
+   border-top: 10px firebrick;
+   background-color:ghostwhite;
+   clear: left;
+   margin-top: 20px;
+   padding: 10px 0px;
+   color: firebrick;
+   font-style: normal;
+   font-size: 0.8em;
+   text-align: center;
+}

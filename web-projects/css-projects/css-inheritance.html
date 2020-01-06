@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CSS css-inheritance-</title>
+    <link rel="stylesheet" href="styles/css-inheritance-styles.css">
+</head>
+    <body>
+        <p>Color is inherited. <br><br>
+        Width, margin, padding, and border are not inherited.</p>
+        <p>Control inheritance with 4 universal property values:
+            <ul>
+                <li><span>inherit</span> Turns on inheritance.</li>
+                <li><span>initial</span> Sets the property value applied 
+                    to a selected element to be the same as 
+                    the value set for that property on that 
+                    element in the browser's default style sheet. 
+                    If no value is set by the browser's default style 
+                    sheet and the property is naturally inherited, 
+                    then the property value is set to inherit instead.</li>
+                <li><span>unset</span> Resets the property to its natural value, 
+                    which means that if the property is naturally 
+                    inherited it acts like inherit, otherwise it acts like initial.
+                </li>
+                <li><span>revert</span> (New) Reverts the cascaded value of the property 
+                    from its current value to the value the property would 
+                    have had if no changes had been made by the current 
+                    style origin to the current element. Thus, it resets 
+                    the property to its inherited value if it inherits from 
+                    its parent or to the default value established by the 
+                    user agent's stylesheet (or by user styles, if any exist). 
+                    It can be applied to any CSS property, including the CSS shorthand all. 
+                    This removes from the cascade all of the styles that have been 
+                    overridden until the style being rolled back to is reached. 
+                </li>
+            </ul>
+        </p>
+        <ul class="main">
+            <li>The color has applied to the direct children, but also the indirect children
+                 — the immediate child &lt;li&gt;s, and those inside the first nested list. 
+            </li>
+            <li>Item One</li>
+            <li>Item Two
+                <ul>
+                    <li>2.1</li>
+                    <li>2.2</li>
+                </ul>
+            </li>
+            <li>Item Three
+                <ul class="special">
+                    <li>We have then added a class of special to the second nested list and 
+                        applied a different color to it. This then inherits down 
+                        through its children.
+                    </li>
+                    <li>3.1
+                        <ul>
+                            <li>3.1.1</li>
+                            <li>3.1.2</li>
+                        </ul>
+                    </li>
+                    <li>3.2</li>
+                </ul>
+            </li>
+            <li>Item 4</li>
+            <li class="fix-me">Item 5</li>
+        </ul>
+            
+    </body>
+</html>

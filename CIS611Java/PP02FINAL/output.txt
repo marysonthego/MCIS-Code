@@ -1,0 +1,2 @@
+Customer [id=77, fName=Sunset, lName=Strip, amount=50.0, card=[c21587c5e22817c8a2ae599c5387f953, 06-06-2019], getId()=77, getfName()=Sunset, getlName()=Strip, getAmount()=50.0, getCard()=[c21587c5e22817c8a2ae599c5387f953, 06-06-2019]]
+Customer [id=88, fName=Rocket, lName=88, amount=8888.0, card=[c21587c5e22817c8a2ae599c5387f953, 08-15-2021], getId()=88, getfName()=Rocket, getlName()=88, getAmount()=8888.0, getCard()=[c21587c5e22817c8a2ae599c5387f953, 08-15-2021]]

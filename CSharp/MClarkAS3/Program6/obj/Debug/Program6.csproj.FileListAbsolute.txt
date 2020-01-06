@@ -1,0 +1,10 @@
+C:\Users\marys\source\repos\MClarkAS3\Program6\obj\Debug\Program6.Properties.Resources.resources
+C:\Users\marys\source\repos\MClarkAS3\Program6\obj\Debug\Program6.WalkForm.resources
+C:\Users\marys\source\repos\MClarkAS3\Program6\obj\Debug\Program6.csproj.GenerateResource.cache
+C:\Users\marys\source\repos\MClarkAS3\Program6\obj\Debug\Program6.csproj.CoreCompileInputs.cache
+C:\Users\marys\source\repos\MClarkAS3\Program6\bin\Debug\Program6.exe.config
+C:\Users\marys\source\repos\MClarkAS3\Program6\bin\Debug\Program6.exe
+C:\Users\marys\source\repos\MClarkAS3\Program6\bin\Debug\Program6.pdb
+C:\Users\marys\source\repos\MClarkAS3\Program6\obj\Debug\Program6.csprojAssemblyReference.cache
+C:\Users\marys\source\repos\MClarkAS3\Program6\obj\Debug\Program6.exe
+C:\Users\marys\source\repos\MClarkAS3\Program6\obj\Debug\Program6.pdb

@@ -1,0 +1,19 @@
+C:\Users\marys\source\repos\MClarkAS5\Program13\bin\Debug\Program13.exe.config
+C:\Users\marys\source\repos\MClarkAS5\Program13\bin\Debug\Program13.exe
+C:\Users\marys\source\repos\MClarkAS5\Program13\bin\Debug\Program13.pdb
+C:\Users\marys\source\repos\MClarkAS5\Program13\obj\Debug\Program13.NFLWinnersForm.resources
+C:\Users\marys\source\repos\MClarkAS5\Program13\obj\Debug\Program13.Properties.Resources.resources
+C:\Users\marys\source\repos\MClarkAS5\Program13\obj\Debug\Program13.csproj.GenerateResource.cache
+C:\Users\marys\source\repos\MClarkAS5\Program13\obj\Debug\Program13.csproj.CoreCompileInputs.cache
+C:\Users\marys\source\repos\MClarkAS5\Program13\obj\Debug\Program13.exe
+C:\Users\marys\source\repos\MClarkAS5\Program13\obj\Debug\Program13.pdb
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program13\bin\Debug\Program13.exe.config
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program13\bin\Debug\Program13.exe
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program13\bin\Debug\Program13.pdb
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program13\obj\Debug\Program13.csprojAssemblyReference.cache
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program13\obj\Debug\Program13.NFLWinnersForm.resources
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program13\obj\Debug\Program13.Properties.Resources.resources
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program13\obj\Debug\Program13.csproj.GenerateResource.cache
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program13\obj\Debug\Program13.csproj.CoreCompileInputs.cache
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program13\obj\Debug\Program13.exe
+S:\CIS605\Clark,Mary (mclark59)\MClarkAS5\MClarkAS5\Program13\obj\Debug\Program13.pdb

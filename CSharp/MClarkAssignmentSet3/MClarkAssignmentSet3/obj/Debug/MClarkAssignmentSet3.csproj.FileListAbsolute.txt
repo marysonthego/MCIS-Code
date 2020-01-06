@@ -1,0 +1,10 @@
+C:\Users\marys\source\repos\MClarkAssignmentSet3\MClarkAssignmentSet3\bin\Debug\MClarkAssignmentSet3.exe.config
+C:\Users\marys\source\repos\MClarkAssignmentSet3\MClarkAssignmentSet3\bin\Debug\MClarkAssignmentSet3.exe
+C:\Users\marys\source\repos\MClarkAssignmentSet3\MClarkAssignmentSet3\bin\Debug\MClarkAssignmentSet3.pdb
+C:\Users\marys\source\repos\MClarkAssignmentSet3\MClarkAssignmentSet3\obj\Debug\MClarkAssignmentSet3.csprojAssemblyReference.cache
+C:\Users\marys\source\repos\MClarkAssignmentSet3\MClarkAssignmentSet3\obj\Debug\MClarkAssignmentSet3.Program6Form.resources
+C:\Users\marys\source\repos\MClarkAssignmentSet3\MClarkAssignmentSet3\obj\Debug\MClarkAssignmentSet3.Properties.Resources.resources
+C:\Users\marys\source\repos\MClarkAssignmentSet3\MClarkAssignmentSet3\obj\Debug\MClarkAssignmentSet3.csproj.GenerateResource.cache
+C:\Users\marys\source\repos\MClarkAssignmentSet3\MClarkAssignmentSet3\obj\Debug\MClarkAssignmentSet3.csproj.CoreCompileInputs.cache
+C:\Users\marys\source\repos\MClarkAssignmentSet3\MClarkAssignmentSet3\obj\Debug\MClarkAssignmentSet3.exe
+C:\Users\marys\source\repos\MClarkAssignmentSet3\MClarkAssignmentSet3\obj\Debug\MClarkAssignmentSet3.pdb

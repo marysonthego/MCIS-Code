@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleFormEventHandlers", "ExampleFormEventHandlers\ExampleFormEventHandlers.csproj", "{089BDD7C-A7ED-43EA-9E8E-041CDA637367}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{380FD99F-D3DC-43AB-BC3B-68ABD429F5C9}"
+	ProjectSection(SolutionItems) = preProject
+		Example1.cs = Example1.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{089BDD7C-A7ED-43EA-9E8E-041CDA637367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089BDD7C-A7ED-43EA-9E8E-041CDA637367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089BDD7C-A7ED-43EA-9E8E-041CDA637367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089BDD7C-A7ED-43EA-9E8E-041CDA637367}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D81BB9A8-72AD-46CC-9667-8278E9DA4DCB}
+	EndGlobalSection
+EndGlobal

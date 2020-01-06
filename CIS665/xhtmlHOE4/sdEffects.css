@@ -1,0 +1,121 @@
+﻿@charset "utf-8";
+
+/*
+HTML - Hands-on-Exercise 4
+
+Messier Marathon Web Page
+
+Filename: sdEffects.css
+
+CIS665 HOE4
+
+Link: http://cisweb.biz.colostate.edu/cis665/sp19clark.mclark59/htmlHOE4/sdMessier.html
+
+Looks correct in Chrome and Firefox. Doesn't render properly in IE11.
+
+Author: Mary Clark
+
+Date: 02/11/2019
+*/
+
+/* HTML Styles */
+
+/* In the Html Styles section, create a style rule for the html element to display the sdBack1.png file
+   as the background image covering the entire browser window. Have the background image fixed
+   so that it does not scroll with the browser window */
+html {
+    background-image: url(sdBack1.png);
+    background-repeat: no-repeat;
+    background-clip:border-box;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Body Styles */
+
+body {
+    /*  i. A background containing the night sky image, sdBack2.png, 
+    background: url(sdBack2.png); 
+
+    */
+    /*  ii. A radial gradient circle with a size extending to the closest corner and placed at the
+c       oordinates (40%, 70%) containing the color white stopping at 15% of the gradient
+        followed by the color value rgba(151, 151, 151, 0.5) stopping at 50%,
+    background: radial-gradient(circle closest-corner at 40% 70%, white 15%, rgba(151, 151, 151, 0.5) 50%); 
+
+    */
+    /*  iii. A radial gradient circle also extending to the closest corner and placed at the coordinates
+        (80%, 40%) containing the color white stopping at 15% of the gradient followed by the
+        color value rgba(0, 0, 0, 0) stopping at 30%,
+    background: radial-gradient(circle closest-corner at 80% 40%, white 15%, rgba(0, 0, 0, 0) 30%);
+
+    */
+    /*  iv. A radial gradient extending to the closest side and placed at the coordinates (10%, 20%)
+        containing the color white stopping at 20% of the gradient followed by the color value
+        rgba(0, 0, 0, 0) stopping at 45%, 
+    background: radial-gradient(circle closest-side at 10% 20%, white 20%, rgba(0, 0, 0, 0) 45%);
+        
+    */
+    /*  v. The background color is set to rgb(151, 151, 151)
+    background-color: rgb(151, 151, 151);
+
+    */
+    /*  Add all above backgrounds as a multiple background statement in a comma-separated list
+
+    */
+    background: url(sdBack2.png), radial-gradient(circle closest-corner at 40% 70%, white 15%, rgba(151, 151, 151, 0.5) 50%), radial-gradient(circle closest-corner at 80% 40%, white 15%, rgba(0, 0, 0, 0) 30%), radial-gradient(circle closest-side at 10% 20%, white 20%, rgba(0, 0, 0, 0) 45%), rgb(151, 151, 151);
+    /*  In the Body Styles section, add styles to place box shadows on the left and right borders. 
+        Set the color of the first shadow to rgb(31, 31, 31) with horizontal and vertical offsets 
+        of 30 pixels and 0 pixels and a blur of 45 pixels. 
+        Set the color of the second shadow to rgb(31, 31, 31) with horizontal and vertical offsets 
+        of -30 pixels and 0 pixels and a blur of 45 pixels.
+        box-shadow: color offsetX offsetY blur
+
+    */
+    box-shadow: rgb(31,31,31) 30px 0px 45px, rgb(31,31,31) -30px 0px 45px;
+}
+
+
+/* Navigation List Styles */
+
+    /*  In the Navigation List Styles section, format the hypertext links in the body header 
+        by creating a style rule that adds a 5-pixel outset border with color value 
+        rgb(211, 211, 255).
+
+    */
+    body > header a {
+        border: 5px outset rgb(211,211,255);
+   
+}
+
+
+/* Section Left Styles */
+
+    /*  In the Section Left Styles section, create a style rule for the h1 heading in the 
+        left section article that changes the text color to rgb(211, 211, 211) and adds 
+        a black text shadow with 0-pixel offsets and a blur size of 5 pixels.
+
+    */
+
+section#left article h1 {
+    color: rgb(211,211,211);
+    text-shadow: black 0px 0px 5px;
+}
+
+img#mportrait {
+   filter: drop-shadow(-15px 0px 5px rgba(51, 51, 51, 0.9))  grayscale(0.7) opacity(0.6);
+   transform: rotateY(180deg);
+}
+
+/* Footer Styles */
+
+    /*  In the Footer Styles section, create a style rule for the footer element that 
+        adds a 2-pixel solid border to the top edge of the footer with a color value 
+        of rgb(171, 171, 171).
+
+    */
+
+footer {
+    border-top: 2px solid rgb(171,171,171);
+   
+}
