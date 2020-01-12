@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d63d0be-2520-4cd9-bb58-0687e50d13a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/calc-test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
+    <list default="true" id="8d63d0be-2520-4cd9-bb58-0687e50d13a0" name="Default Changelist" comment="calc-test commit dir">
+      <change afterPath="$PROJECT_DIR$/controllers/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/mime" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/mime.cmd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/mime.ps1" afterDir="false" />
@@ -358,13 +349,24 @@
       <change afterPath="$PROJECT_DIR$/node_modules/vary/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/vary/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/vary/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/error.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dom-structure.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/html-dom-hierarchy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/javascripts/ipcalc-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/templates/dom-tests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/templates/inputForm.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jquery-project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jquery-project/.idea/jquery-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jquery-project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jquery-project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jquery-project/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -375,7 +377,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="1WB86RBFoznIix8aMbDwP5vdNbz" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -385,8 +389,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.14.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/javascripts" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\marys\Docs\Repos\web-projects\calc-test\public\javascripts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marys\Docs\Repos\web-projects\calc-test\views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.bin\www">
+    <configuration name="dom-tests.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/calc-test/views/templates/dom-tests.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.dom-tests.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -410,7 +434,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578611451103</updated>
-      <workItem from="1578611457704" duration="824000" />
+      <workItem from="1578611457704" duration="1995000" />
+      <workItem from="1578615086148" duration="7271000" />
+      <workItem from="1578679574096" duration="1318000" />
+      <workItem from="1578709573420" duration="947000" />
+      <workItem from="1578782805661" duration="14302000" />
+      <workItem from="1578849815297" duration="7746000" />
+      <workItem from="1578864913410" duration="2284000" />
     </task>
     <task id="LOCAL-00001" summary="calc-test initial commit">
       <created>1578612067877</created>
@@ -419,24 +449,102 @@
       <option name="project" value="LOCAL" />
       <updated>1578612067877</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="calc-test commit dir">
+      <created>1578612401018</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578612401018</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="calc-test initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="calc-test initial commit" />
+    <MESSAGE value="calc-test commit dir" />
+    <option name="LAST_COMMIT_MESSAGE" value="calc-test commit dir" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="841" y="21" width="764" height="647" key="CommitChangelistDialog2" timestamp="1578612066957">
+    <state x="841" y="21" width="764" height="647" key="CommitChangelistDialog2" timestamp="1578867179693">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="841" y="21" width="764" height="647" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1578612066957" />
-    <state x="815" y="240" key="Vcs.Push.Dialog.v2" timestamp="1578612106859">
+    <state x="841" y="21" width="764" height="647" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1578867179693" />
+    <state x="1003" y="266" key="FileChooserDialogImpl" timestamp="1578859322298">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="815" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1578612106859" />
+    <state x="1003" y="266" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1578859322298" />
+    <state width="1137" height="236" key="GridCell.Tab.0.bottom" timestamp="1578860404198">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1137" height="236" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578860404198" />
+    <state width="1137" height="236" key="GridCell.Tab.0.center" timestamp="1578860404198">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1137" height="236" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578860404198" />
+    <state width="1137" height="236" key="GridCell.Tab.0.left" timestamp="1578860404198">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1137" height="236" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578860404198" />
+    <state width="1137" height="236" key="GridCell.Tab.0.right" timestamp="1578860404198">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1137" height="236" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578860404198" />
+    <state width="1366" height="295" key="GridCell.Tab.1.bottom" timestamp="1578806136253">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1366" height="295" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578806136253" />
+    <state width="1366" height="295" key="GridCell.Tab.1.center" timestamp="1578806136252">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1366" height="295" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578806136252" />
+    <state width="1366" height="295" key="GridCell.Tab.1.left" timestamp="1578806136250">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1366" height="295" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578806136250" />
+    <state width="1366" height="295" key="GridCell.Tab.1.right" timestamp="1578806136253">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1366" height="295" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578806136253" />
+    <state width="1366" height="295" key="GridCell.Tab.2.bottom" timestamp="1578806136254">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1366" height="295" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578806136254" />
+    <state width="1366" height="295" key="GridCell.Tab.2.center" timestamp="1578806136254">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1366" height="295" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578806136254" />
+    <state width="1366" height="295" key="GridCell.Tab.2.left" timestamp="1578806136254">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1366" height="295" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578806136254" />
+    <state width="1366" height="295" key="GridCell.Tab.2.right" timestamp="1578806136254">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1366" height="295" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578806136254" />
+    <state width="1366" height="295" key="GridCell.Tab.3.bottom" timestamp="1578806136255">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1366" height="295" key="GridCell.Tab.3.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578806136255" />
+    <state width="1366" height="295" key="GridCell.Tab.3.center" timestamp="1578806136254">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1366" height="295" key="GridCell.Tab.3.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578806136254" />
+    <state width="1366" height="295" key="GridCell.Tab.3.left" timestamp="1578806136254">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1366" height="295" key="GridCell.Tab.3.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578806136254" />
+    <state width="1366" height="295" key="GridCell.Tab.3.right" timestamp="1578806136255">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1366" height="295" key="GridCell.Tab.3.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578806136254" />
+    <state x="815" y="240" key="Vcs.Push.Dialog.v2" timestamp="1578612456718">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="815" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1578612456718" />
   </component>
 </project>

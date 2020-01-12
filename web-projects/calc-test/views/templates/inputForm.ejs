@@ -1,0 +1,15 @@
+<form action="../public/javascripts/ipcalc-script.js" method="post" class="ipform" onsubmit="validate()" >
+    <div class="ipform">
+        <label for="ipAddr">IP Address: </label>
+        <input type="text" name="ipAddr" id="ipAddr" minlength="7" maxlength="15" size="15" required
+               pattern="^((\d{1,2}|1\d\d|2[0-4]\d|25[0-5])\.){3}(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])$">
+    </div>
+    <div class="ipform">
+        <label for="mask">Subnet Mask: </label>
+        <input type="text" name="mask" id="mask" minlength="7" maxlength="15" size="15" required
+               pattern="^(?:(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])\.){3}(?:25[0-5]|2[0-4][0-9]|1[0-9][0-9]|[1-9]?[0-9])$">
+    </div>
+    <div class="ipform">
+        <input type="submit" value="Submit">
+    </div>
+</form>
