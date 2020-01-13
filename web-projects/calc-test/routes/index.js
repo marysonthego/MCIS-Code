@@ -1,6 +1,14 @@
 var express = require('express');
 var router = express.Router();
-var ipcalc = require('../public/javascripts/ipcalc-script');
+
+let landing = require('../controllers/landing');
+router.get('/', landing.getLanding);
+
+let ipcalc = require('../public/javascripts/ipcalc');
+router.post('/', ipcalc.validate);
+
+module.exports = router;
+//var ipcalc = require('../public/javascripts/ipcalc');
 
 /* GET home page.
    when get url matches '/', function is called.
@@ -10,11 +18,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Subnet Calculator' });
 });
 */
-let index = require('../controllers/index');
-router.get('/', index.index);
 
-router.get('./ipcalc-script', function(req, res, next) {
-  res.send(ipcalc.validate());
-});
-
-module.exports = router;
+//router.get('./ipcalc-script', function(req, res, next) {
+//  res.send(ipcalc.validate);
+//});
