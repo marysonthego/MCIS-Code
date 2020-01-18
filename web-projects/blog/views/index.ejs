@@ -2,13 +2,16 @@
 <html lang="en">
 
 <%- include('layouts/header'); -%>
-
+<!-- The include calls receive a path relative to the template. So,
+since the path of header.ejs is in ./views/layouts/header.ejs and
+index.ejs is in ./views/index.ejs, we specify include('layouts/header').
+-->
 <body>
 
 <%- include('layouts/navbar'); -%>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('../public/img/home-bg.jpg')">
+  <header class="masthead" style="background-image: url('/img/home-bg.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -27,7 +30,7 @@
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
         <div class="post-preview">
-          <a href="post.ejs">
+          <a href="posts.ejs">
             <h2 class="post-title">
               Man must explore, and this is exploration at its greatest
             </h2>
@@ -41,7 +44,7 @@
         </div>
         <hr>
         <div class="post-preview">
-          <a href="post.ejs">
+          <a href="posts.ejs">
             <h2 class="post-title">
               I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
             </h2>
@@ -52,7 +55,7 @@
         </div>
         <hr>
         <div class="post-preview">
-          <a href="post.ejs">
+          <a href="posts.ejs">
             <h2 class="post-title">
               Science has not yet mastered prophecy
             </h2>
@@ -66,7 +69,7 @@
         </div>
         <hr>
         <div class="post-preview">
-          <a href="post.ejs">
+          <a href="posts.ejs">
             <h2 class="post-title">
               Failure is not an option
             </h2>
