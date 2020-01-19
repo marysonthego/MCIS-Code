@@ -10,11 +10,7 @@ mongoose.connect('mongodb://localhost/blogdb',
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({ extended:true}));
 
-router.get('/', async (req, res, next) => {
-  var blogposts = await BlogPost.find({});
-  res.render('index', {
-    blogposts: blogposts
-  });
-});
+const listPosts = require('../Controllers/listPostsController');
+router.get('/',listPosts);
 
 module.exports = router;

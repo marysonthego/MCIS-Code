@@ -3,13 +3,6 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-//var fileUpload = require('express-fileupload');
-//var bodyParser = require('body-parser');
-//var BlogPost = require('./models/BlogPost.js');
-
-//const mongoose = require('mongoose');
-//mongoose.connect('mongodb://localhost/blogdb',
-//    {useNewUrlParser: true, useUnifiedTopology: true});
 
 var indexRouter = require('./routes/index');
 var contactRouter = require('./routes/contact');
