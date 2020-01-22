@@ -11,8 +11,7 @@ router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({ extended:true}));
 
 const searchposts = require('../Controllers/searchPostController');
-router.get('/search/:searchBox', searchposts);
-//router.param('searchBox', searchposts());
+router.get('/search', searchposts);
 
 const blogposts = require('../Controllers/listPostsController');
 router.get('/',blogposts);
