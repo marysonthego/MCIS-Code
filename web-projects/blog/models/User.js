@@ -1,8 +1,8 @@
 const mongoose = require('mongoose');
-const schema = mongoose.Schema;
+const Schema = mongoose.Schema;
 const bcrypt = require('bcryptjs');
 
-const UserSchema = new schema({
+const UserSchema = new Schema({
     username: {
         type: String,
         required: true,
@@ -11,17 +11,19 @@ const UserSchema = new schema({
     password: {
         type: String,
         required: true
-    },
-    datecreated: {
-        type: Date,
-        default: new Date()
-    }
+    } //,
+    //datecreated: {
+    //    type: Date,
+    //    default: new Date()
+    //}
 });
 
-UserSchema.pre('save', function(next) {
+UserSchema.pre ('save', function(next) {
     const user = this;
-    bcrypt.hash(user.password, 10,(error,hash) => {
+    console.log('username = ' + [user.username]);
+    bcrypt.hash(user.password, 10, function(error,hash) {
         user.password = hash;
+        console.log('hashed pwd = ' + user.password);
         next();
     });
 });

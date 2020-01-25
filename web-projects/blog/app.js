@@ -24,7 +24,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/contact', contactRouter);
-app.use("/post", postRouter);
+app.use('/post', postRouter);
 app.use('/about', aboutRouter);
 app.use('/user', userRouter);
 
