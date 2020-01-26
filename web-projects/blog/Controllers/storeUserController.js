@@ -1,13 +1,8 @@
 const User = require('../models/User');
 const path = require('path');
-//const bcrypt = require('bcryptjs');
 
 module.exports = (req,res,next) => {
-  //const { username, password } = req.body;
-  //User.create(req.body,{
-  var user = User.create(
-  //var user = User.create(req.body,
-    {
+  User.create({
     username: req.body.username,
     password: req.body.password,
     datecreated: new Date() },

@@ -4,6 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 const expressSession = require('express-session');
+global.loggedIn = null;
 
 var indexRouter = require('./routes/index');
 var contactRouter = require('./routes/contact');
@@ -25,6 +26,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(expressSession({
   secret: 'keyboard cat'
 }));
+app.use("*", (req, res, next) => {
+    loggedIn = req.session.userId;
+    next();
+});
 
 app.use('/', indexRouter);
 app.use('/contact', contactRouter);
@@ -33,10 +38,13 @@ app.use('/about', aboutRouter);
 app.use('/user', userRouter);
 
 // catch 404 and forward to error handler
-app.use(function(req, res, next) {
-  next(createError(404));
-});
+//app.use(function(req, res, next) {
+//  next(createError(404));
+//});
 
+// Handle 404
+app.use((req,res,next) => res.render('404'));
+/*
 // error handler
 app.use(function(err, req, res, next) {
   // set locals, only providing error in development
@@ -45,7 +53,11 @@ app.use(function(err, req, res, next) {
 
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  //res.render('error');
+  //log the error
+  console.log('Status = ' + err.message);
+
 });
+*/
 
 module.exports = app;

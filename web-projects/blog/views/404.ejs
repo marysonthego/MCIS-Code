@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('layouts/header'); -%>
+<!-- The include calls receive a path relative to the template. So,
+since the path of header.ejs is in ./views/layouts/header.ejs and
+index.ejs is in ./views/index.ejs, we specify include('layouts/header').
+-->
+<body>
+
+<%- include('layouts/navbar'); -%>
+
+<!-- Page Header -->
+<header class="masthead" >
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="site-heading">
+                    <h1>404</h1>
+                    <span><img src="/img/grey2020-01-01_8-42-59.jpg" alt="404"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+    <hr>
+    <%- include('layouts/footer'); -%>
+    <%- include('layouts/scripts'); -%>
+</body>
+</html>
