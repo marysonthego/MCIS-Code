@@ -11,11 +11,11 @@ const UserSchema = new Schema({
     password: {
         type: String,
         required: true
-    } //,
-    //datecreated: {
-    //    type: Date,
-    //    default: new Date()
-    //}
+    } ,
+    datecreated: {
+        type: Date,
+        default: new Date()
+    }
 });
 
 UserSchema.pre ('save', function(next) {
