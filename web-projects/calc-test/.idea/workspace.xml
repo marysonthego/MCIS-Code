@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d63d0be-2520-4cd9-bb58-0687e50d13a0" name="Default Changelist" comment="calc-test commit dir">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/marys.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/Repos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/mime" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/mime.cmd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/.bin/mime.ps1" afterDir="false" />
@@ -349,17 +353,16 @@
       <change afterPath="$PROJECT_DIR$/node_modules/vary/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/vary/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/node_modules/vary/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/.sequelizerc" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jquery-project/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jquery-project/.idea/jquery-project.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jquery-project/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jquery-project/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../jquery-project/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/landing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/javascripts/ipcalc-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/ipcalc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/ipcalc.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/ipcalc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/landing.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/templates/inputForm.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/templates/inputForm.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,6 +377,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -383,11 +387,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.14.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/javascripts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CalcIPs/CalcIps.java" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -435,7 +439,9 @@
       <workItem from="1578709573420" duration="947000" />
       <workItem from="1578782805661" duration="14302000" />
       <workItem from="1578849815297" duration="7746000" />
-      <workItem from="1578864913410" duration="8972000" />
+      <workItem from="1578864913410" duration="11514000" />
+      <workItem from="1578879092991" duration="5220000" />
+      <workItem from="1578937251949" duration="2282000" />
     </task>
     <task id="LOCAL-00001" summary="calc-test initial commit">
       <created>1578612067877</created>
@@ -458,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578867304371</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="calc-test commit landing, ipcalc">
+      <created>1578874094336</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578874094336</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -470,33 +483,38 @@
     <MESSAGE value="calc-test initial commit" />
     <MESSAGE value="calc-test commit dir" />
     <MESSAGE value="calc-test add controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="calc-test add controller" />
+    <MESSAGE value="calc-test commit landing, ipcalc" />
+    <option name="LAST_COMMIT_MESSAGE" value="calc-test commit landing, ipcalc" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="841" y="21" width="764" height="647" key="CommitChangelistDialog2" timestamp="1578867301466">
+    <state x="1092" y="301" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578877722754">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="841" y="21" width="764" height="647" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1578867301466" />
-    <state x="1003" y="266" key="FileChooserDialogImpl" timestamp="1578859322298">
+    <state x="1092" y="301" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1578877722754" />
+    <state x="841" y="21" width="764" height="647" key="CommitChangelistDialog2" timestamp="1578874091898">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1003" y="266" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1578859322298" />
-    <state width="1137" height="236" key="GridCell.Tab.0.bottom" timestamp="1578873889996">
+    <state x="841" y="21" width="764" height="647" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1578874091898" />
+    <state x="1003" y="266" key="FileChooserDialogImpl" timestamp="1578879319682">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1137" height="236" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578873889996" />
-    <state width="1137" height="236" key="GridCell.Tab.0.center" timestamp="1578873889996">
+    <state x="1003" y="266" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1578879319682" />
+    <state width="1137" height="236" key="GridCell.Tab.0.bottom" timestamp="1578942881248">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1137" height="236" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578873889996" />
-    <state width="1137" height="236" key="GridCell.Tab.0.left" timestamp="1578873889995">
+    <state width="1137" height="236" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1578942881248" />
+    <state width="1137" height="236" key="GridCell.Tab.0.center" timestamp="1578942881248">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1137" height="236" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578873889995" />
-    <state width="1137" height="236" key="GridCell.Tab.0.right" timestamp="1578873889996">
+    <state width="1137" height="236" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1578942881248" />
+    <state width="1137" height="236" key="GridCell.Tab.0.left" timestamp="1578942881248">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1137" height="236" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578873889996" />
+    <state width="1137" height="236" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1578942881248" />
+    <state width="1137" height="236" key="GridCell.Tab.0.right" timestamp="1578942881248">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1137" height="236" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578942881248" />
     <state width="1366" height="295" key="GridCell.Tab.1.bottom" timestamp="1578806136253">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -545,10 +563,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state width="1366" height="295" key="GridCell.Tab.3.right/0.0.1920.1050@0.0.1920.1050" timestamp="1578806136254" />
-    <state x="838" y="154" key="SettingsEditor" timestamp="1578868506899">
+    <state x="838" y="154" key="SettingsEditor" timestamp="1578937806923">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="838" y="154" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1578868506899" />
+    <state x="838" y="154" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1578937806923" />
     <state x="815" y="240" key="Vcs.Push.Dialog.v2" timestamp="1578612456718">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

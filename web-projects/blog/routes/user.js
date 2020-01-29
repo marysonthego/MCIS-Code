@@ -13,7 +13,6 @@ router.post('/login',redirectIfAuthenticated,loginUser);
 
 const registerUser = require("../Controllers/registerController");
 router.get("/register",redirectIfAuthenticated,registerUser);
-//router.post("/register",);
 
 const storeUser = require('../controllers/storeUserController');
 router.post('/register',redirectIfAuthenticated,storeUser);

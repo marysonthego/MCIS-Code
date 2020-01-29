@@ -10,15 +10,15 @@ module.exports = (req, res, next) => {
           if(same) { // if passwords match
             // store user session
             req.session.userId = user.id;
-            res.redirect('/');
-          }
-          else{
-            res.redirect('/user/login');
-          }
-        });
-      }
+            return res.redirect('/');
+          }})}
       else{
-        res.redirect('/user/login');
-      }
-    });
-};
+            const validationErrors = Object.keys(error.errors).map(key => error.errors[key].message);
+            req.flash('validationErrors',validationErrors);
+            req.flash('data',req.body);
+            console.log('Login error');
+            return res.redirect('/user/login');
+          }
+      })
+      };
+

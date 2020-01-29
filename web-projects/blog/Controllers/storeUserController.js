@@ -12,9 +12,12 @@ module.exports = (req,res,next) => {
         console.log(user);
         res.redirect('/');
       } else {
+        const validationErrors = Object.keys(error.errors).map(key => error.errors[key].message);
+        req.flash('validationErrors',validationErrors);
+        req.flash('data',req.body);
         console.log('failed to create user');
-        console.log(error);
-        res.redirect('/user/register');
+        console.log(validationErrors);
+        return res.redirect('/user/register');
       }
     })
   };
